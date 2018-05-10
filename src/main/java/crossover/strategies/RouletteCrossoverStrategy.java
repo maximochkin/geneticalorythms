@@ -7,6 +7,7 @@ import entities.Population;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
 public class RouletteCrossoverStrategy implements CrossoverStrategy {
@@ -30,10 +31,29 @@ public class RouletteCrossoverStrategy implements CrossoverStrategy {
             weights.set(i, weights.get(i-1) + fitnessValues.get(i));
         }
 
-        boolean correct = false;
-        while (!correct) {
+        boolean correctHasBeenFound = false;
+        double rnd = 0.0;
+        int parentIndex = 0;
 
+        while (!correctHasBeenFound) {
+            rnd = getRandomWeight(sumWeight);
+            for (int i = 0; i < weights.size(); i++) {
+                if (rnd < weights.get(i)) {
+                    if (!population.getPersonByNumber(i).equals(exception)) {
+                        parentIndex = i;
+                        correctHasBeenFound = true;
+                        break;
+                    } else {
+                        break;
+                    }
+                }
+            }
         }
 
+        return population.getPersonByNumber(parentIndex);
+    }
+
+    double getRandomWeight(double sumWeight) {
+        return ThreadLocalRandom.current().nextDouble(sumWeight);
     }
 }

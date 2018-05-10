@@ -38,8 +38,8 @@ public class Population {
         population.set(number, value);
     }
 
-    public void getPersonByNumber(int number) {
-        population.get(number);
+    public Person getPersonByNumber(int number) {
+        return population.get(number);
     }
 
     public void sort() {
