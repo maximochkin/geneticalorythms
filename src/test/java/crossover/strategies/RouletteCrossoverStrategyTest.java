@@ -3,7 +3,7 @@ package crossover.strategies;
 import entities.Chromosome;
 import entities.Person;
 import entities.Population;
-import fitness.AvgSqrFitnessFunction;
+import fitness.ForTestingFitnessFunction;
 import fitness.FitnessFunction;
 import org.junit.Assert;
 import org.junit.Test;
@@ -20,13 +20,15 @@ public class RouletteCrossoverStrategyTest {
 	@Test
 	public void getParentTest() {
 		RouletteCrossoverStrategy crossoverStrategy = new RouletteCrossoverStrategy();
-		FitnessFunction fitnessFunction = new AvgSqrFitnessFunction();
+		FitnessFunction fitnessFunction = new ForTestingFitnessFunction();
 		RouletteCrossoverStrategy crossoverStrategySpy = Mockito.spy(crossoverStrategy);
 		Population population = preparePopulation();
 		calculateFitness(population, fitnessFunction);
+
 		double sumWeight = population.getPopulation().stream().mapToDouble(Person::getFitnessValue).sum();
 		Mockito.doReturn(RND).when(crossoverStrategySpy).getRandomWeight(sumWeight);
-		Person pickedPerson = crossoverStrategySpy.getParent(population, sumWeight, null);
+
+		Person pickedPerson = crossoverStrategySpy.getParent(population, null);
 		Assert.assertEquals(population.getPersonByNumber(0), pickedPerson);
 	}
 

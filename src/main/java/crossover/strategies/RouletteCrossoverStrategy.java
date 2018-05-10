@@ -13,14 +13,17 @@ import java.util.stream.Collectors;
 public class RouletteCrossoverStrategy implements CrossoverStrategy {
     @Override
     public void crossover(Population population, CrossoverMethod crossoverMethod) {
-
-        double sumWeight = population.getPopulation().stream().mapToDouble(Person::getFitnessValue).sum();
         population.sort();
-        Person parent1 = getParent(population, sumWeight, null);
+        Person parent1 = getParent(population, null);
+        Person parent2 = getParent(population, parent1);
+        List<Person> children = crossoverMethod.crossover(parent1, parent2);
+        population.add(children);
     }
 
     // 3th parameter is for not to pick up one person two times
-    Person getParent(Population population, double sumWeight, Person exception) {
+    Person getParent(Population population, Person exception) {
+        double sumWeight = population.getPopulation().stream().mapToDouble(Person::getFitnessValue).sum();
+
         List<Double> fitnessValues = population.getPopulation().stream()
                 .map(Person::getFitnessValue).collect(Collectors.toList());
 

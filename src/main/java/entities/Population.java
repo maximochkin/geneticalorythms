@@ -1,6 +1,7 @@
 package entities;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -45,6 +46,10 @@ public class Population {
     public void sort() {
         Collections.sort(population);
     }
+
+    public void add(Collection<Person> persons) {
+    	population.addAll(persons);
+	}
 
 
 }
