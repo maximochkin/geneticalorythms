@@ -20,7 +20,7 @@ public class RouletteCrossoverStrategy implements CrossoverStrategy {
     }
 
     // 3th parameter is for not to pick up one person two times
-    private Person getParent(Population population, double sumWeight, Person exception) {
+    Person getParent(Population population, double sumWeight, Person exception) {
         List<Double> fitnessValues = population.getPopulation().stream()
                 .map(Person::getFitnessValue).collect(Collectors.toList());
 
