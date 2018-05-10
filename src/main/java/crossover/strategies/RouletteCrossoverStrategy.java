@@ -3,6 +3,7 @@ package crossover.strategies;
 import crossover.methods.CrossoverMethod;
 import entities.Person;
 import entities.Population;
+import fitness.FitnessFunction;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,15 +13,20 @@ import java.util.stream.Collectors;
 
 public class RouletteCrossoverStrategy implements CrossoverStrategy {
     @Override
-    public void crossover(Population population, CrossoverMethod crossoverMethod) {
+    public void crossover(Population population, CrossoverMethod crossoverMethod, FitnessFunction fitnessFunction) {
         population.sort();
-        Person parent1 = getParent(population, null);
-        Person parent2 = getParent(population, parent1);
-        List<Person> children = crossoverMethod.crossover(parent1, parent2);
+        List<Person> children = new ArrayList<>();
+        for (int i = 0; i < population.getSize() / 2; i++) {
+            Person parent1 = getParent(population, null);
+            Person parent2 = getParent(population, parent1);
+            children.addAll(crossoverMethod.crossover(parent1, parent2));
+        }
+
+        children.stream().forEach(fitnessFunction::apply);
         population.add(children);
     }
 
-    // 3th parameter is for not to pick up one person two times
+    // 3rd parameter is for not to pick up one person two times
     Person getParent(Population population, Person exception) {
         double sumWeight = population.getPopulation().stream().mapToDouble(Person::getFitnessValue).sum();
 

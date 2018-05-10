@@ -75,4 +75,12 @@ public class Person implements Comparable<Person> {
 
         return Objects.hash(size, chromosomes, fitnessValue);
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "fitness=" + fitnessValue +
+                "chromosomes=" + chromosomes +
+                '}';
+    }
 }

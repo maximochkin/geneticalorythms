@@ -1,5 +1,7 @@
 package entities;
 
+import fitness.FitnessFunction;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -49,6 +51,11 @@ public class Population {
 
     public void add(Collection<Person> persons) {
     	population.addAll(persons);
+    	size += persons.size();
+	}
+
+	public void calculateFitnessFunction(FitnessFunction fitnessFunction) {
+		population.forEach(fitnessFunction::apply);
 	}
 
 

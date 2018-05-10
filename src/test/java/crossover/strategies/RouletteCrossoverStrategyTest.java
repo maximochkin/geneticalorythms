@@ -23,17 +23,13 @@ public class RouletteCrossoverStrategyTest {
 		FitnessFunction fitnessFunction = new ForTestingFitnessFunction();
 		RouletteCrossoverStrategy crossoverStrategySpy = Mockito.spy(crossoverStrategy);
 		Population population = preparePopulation();
-		calculateFitness(population, fitnessFunction);
+		population.calculateFitnessFunction(fitnessFunction);
 
 		double sumWeight = population.getPopulation().stream().mapToDouble(Person::getFitnessValue).sum();
 		Mockito.doReturn(RND).when(crossoverStrategySpy).getRandomWeight(sumWeight);
 
 		Person pickedPerson = crossoverStrategySpy.getParent(population, null);
 		Assert.assertEquals(population.getPersonByNumber(0), pickedPerson);
-	}
-
-	private void calculateFitness(Population population, FitnessFunction fitnessFunction) {
-		population.getPopulation().forEach(fitnessFunction::apply);
 	}
 
 	private Population preparePopulation() {
