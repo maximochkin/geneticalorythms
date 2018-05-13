@@ -28,7 +28,7 @@ public class RouletteCrossoverStrategyTest {
 		double sumWeight = population.getPopulation().stream().mapToDouble(Person::getFitnessValue).sum();
 		Mockito.doReturn(RND).when(crossoverStrategySpy).getRandomWeight(sumWeight);
 
-		Person pickedPerson = crossoverStrategySpy.getParent(population, null);
+		Person pickedPerson = crossoverStrategySpy.getParent(population, sumWeight, null);
 		Assert.assertEquals(population.getPersonByNumber(0), pickedPerson);
 	}
 

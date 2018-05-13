@@ -13,12 +13,13 @@ public class BasicRandomBasedMutation implements Mutation {
         for (Person person : population.getPopulation()) {
             if (willMutate(person, mutationProbability)) {
                 int chromosomeNumber = chooseChromosomeToMutate(person);
-                mutateInGene(person, chromosomeNumber, template);
+                mutateInChromosome(person, chromosomeNumber, template);
+
             }
         }
     }
 
-    private void mutateInGene(Person person, int chromosomeNumber, PersonTemplate template) {
+    private void mutateInChromosome(Person person, int chromosomeNumber, PersonTemplate template) {
         int minValue = template.getLimits().get(chromosomeNumber).first();
         int maxValue = template.getLimits().get(chromosomeNumber).second();
         int newValueForChromosome = ThreadLocalRandom.current().nextInt(minValue, maxValue);

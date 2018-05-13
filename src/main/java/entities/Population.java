@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Population {
     int size; //number of persons in population
@@ -58,5 +59,10 @@ public class Population {
 		population.forEach(fitnessFunction::apply);
 	}
 
+
+    public void distinct() {
+        population = population.stream().distinct().collect(Collectors.toList());
+        size = population.size();
+    }
 
 }

@@ -66,7 +66,6 @@ public class Person implements Comparable<Person> {
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
         return size == person.size &&
-                Double.compare(person.fitnessValue, fitnessValue) == 0 &&
                 Objects.equals(chromosomes, person.chromosomes);
     }
 
@@ -80,7 +79,7 @@ public class Person implements Comparable<Person> {
     public String toString() {
         return "Person{" +
                 "fitness=" + fitnessValue +
-                "chromosomes=" + chromosomes +
+                " | chromosomes=" + chromosomes +
                 '}';
     }
 }
