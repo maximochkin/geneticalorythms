@@ -14,7 +14,7 @@ public class TournamentCrossoverStrategy implements CrossoverStrategy {
         Collections.shuffle(population.getPopulation());
         List<Person> parentsPool = new ArrayList<>();
         for (int i = 0; i < population.getSize() - 1; i += 2) {
-            if (population.getPersonByNumber(i).compareTo(population.getPersonByNumber(i + 1)) > 0) {
+            if (Double.compare(population.getPersonByNumber(i).getFitnessValue(), population.getPersonByNumber(i + 1).getFitnessValue()) > 0) {
                 parentsPool.add(population.getPersonByNumber(i));
             } else {
                 parentsPool.add(population.getPersonByNumber(i + 1));

@@ -5,6 +5,7 @@ import crossover.methods.BasicOnePointCrossover;
 import crossover.methods.CrossoverMethod;
 import crossover.strategies.CrossoverStrategy;
 import crossover.strategies.RouletteCrossoverStrategy;
+import crossover.strategies.TournamentCrossoverStrategy;
 import entities.PersonTemplate;
 import fitness.AvgSqrFitnessFunctionForFacility;
 import fitness.FitnessFunction;
@@ -25,14 +26,14 @@ import java.util.List;
 public class Main {
 
 	public static final int TEMPLATE_SIZE = 6;
-	public static final int NUMBER_OF_ITERATIONS = 100;
+	public static final int NUMBER_OF_ITERATIONS = 200;
 
 	public static void main(String[] args) {
 		PopulationInitializer populationInitializer = new BasicRandomPopulationInitializer();
 		PersonInitializer personInitializer = new BasicRandomPersonInitializer();
 		Mutation mutation = new BasicRandomBasedMutation();
 		CrossoverMethod crossoverMethod = new BasicOnePointCrossover();
-		CrossoverStrategy crossoverStrategy = new RouletteCrossoverStrategy();
+		CrossoverStrategy crossoverStrategy = new TournamentCrossoverStrategy();
 		PersonTemplate personTemplate = preparePersonTemplate();
 		FitnessFunction fitnessFunction = new AvgSqrFitnessFunctionForFacility();
 		Selector selector = new RemoveTheWorstSelector();
