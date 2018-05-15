@@ -1,6 +1,5 @@
 package algorythm;
 
-import com.sun.org.apache.bcel.internal.generic.Select;
 import crossover.methods.CrossoverMethod;
 import crossover.strategies.CrossoverStrategy;
 import entities.Person;
@@ -15,11 +14,15 @@ import selection.Selector;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.logging.*;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class GeneticAlgorythm {
-    private static final int MAX_SIZE_OF_POPULATION = 10000;
-    private static final int INITIAL_SIZE_OF_POPULATION = 10000;
+    private static final int MAX_SIZE_OF_POPULATION = 50000;
+    private static final int INITIAL_SIZE_OF_POPULATION = 50000;
     private static final double PRECISION = 0.01;
     private static final double MUTATION_PROBABILITY = 0.1;
     private static final Logger LOGGER = Logger.getLogger(GeneticAlgorythm.class.getName());
@@ -56,6 +59,9 @@ public class GeneticAlgorythm {
         population.calculateFitnessFunction(fitnessFunction);
         population.sort();
 
+        Person bestOfTheBest = null;
+        Person localBest;
+
         for (int i = 0; i < numberOfIterations; i++) {
 
             List<Person> children = crossoverStrategy.crossover(population, crossoverMethod);
@@ -66,16 +72,21 @@ public class GeneticAlgorythm {
 
             population.calculateFitnessFunction(fitnessFunction);
 
-            population.sort();
-
             population.distinct();
 
+            population.sort();
+
             selector.select(population, MAX_SIZE_OF_POPULATION, children.size());
+
+            localBest = population.getPersonByNumber(0);
+            if (bestOfTheBest == null || localBest.getFitnessValue() > bestOfTheBest.getFitnessValue()) {
+                bestOfTheBest = localBest;
+            }
 
             LOGGER.info("STEP: " + i + " | " + population.getPersonByNumber(0).toString());
         }
 
-        return population.getPersonByNumber(0);
+        return bestOfTheBest;
 
     }
 

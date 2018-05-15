@@ -4,12 +4,11 @@ import algorythm.GeneticAlgorythm;
 import crossover.methods.BasicOnePointCrossover;
 import crossover.methods.CrossoverMethod;
 import crossover.strategies.CrossoverStrategy;
-import crossover.strategies.RouletteCrossoverStrategy;
 import crossover.strategies.TournamentCrossoverStrategy;
+import entities.Person;
 import entities.PersonTemplate;
 import fitness.AvgSqrFitnessFunctionForFacility;
 import fitness.FitnessFunction;
-import fitness.ForTestingFitnessFunction;
 import initializers.BasicRandomPersonInitializer;
 import initializers.BasicRandomPopulationInitializer;
 import initializers.PersonInitializer;
@@ -25,9 +24,19 @@ import java.util.List;
 
 public class Main {
 
-	public static final int TEMPLATE_SIZE = 6;
-	public static final int NUMBER_OF_ITERATIONS = 200;
+	public static final int TEMPLATE_SIZE = 7;
+	public static final int NUMBER_OF_ITERATIONS = 500;
 
+	/** Best result 0.04
+	 * 	0.005
+	 * 	0.023
+	 * 	0.03
+	 * 	0.036
+	 * 	0.019
+	 * 	0.014
+	 * 	0.035
+	 *
+	 */
 	public static void main(String[] args) {
 		PopulationInitializer populationInitializer = new BasicRandomPopulationInitializer();
 		PersonInitializer personInitializer = new BasicRandomPersonInitializer();
@@ -38,12 +47,15 @@ public class Main {
 		FitnessFunction fitnessFunction = new AvgSqrFitnessFunctionForFacility();
 		Selector selector = new RemoveTheWorstSelector();
 
-		new GeneticAlgorythm(populationInitializer, personInitializer, mutation, crossoverMethod, crossoverStrategy,
+		Person bestOfTheBest = new GeneticAlgorythm(populationInitializer, personInitializer, mutation, crossoverMethod, crossoverStrategy,
 				personTemplate, fitnessFunction, selector).start(NUMBER_OF_ITERATIONS);
+
+		System.out.println(bestOfTheBest.toString());
 	}
 
 	private static PersonTemplate preparePersonTemplate() {
 		List<Pair<Integer, Integer>> limits = Arrays.asList(
+				new Pair<>(-100, 100),
 				new Pair<>(-100, 100),
 				new Pair<>(-100, 100),
 				new Pair<>(-100, 100),

@@ -22,7 +22,7 @@ public class TournamentCrossoverStrategy implements CrossoverStrategy {
         }
 
         List<Person> children = new ArrayList<>();
-        for (int i = 0; i < parentsPool.size() - 1; i++) {
+        for (int i = 0; i < parentsPool.size() - 1; i+=2) {
             children.addAll(crossoverMethod.crossover(parentsPool.get(i), parentsPool.get(i + 1)));
         }
 

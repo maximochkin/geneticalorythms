@@ -40,9 +40,11 @@ public class AvgSqrFitnessFunctionForFacility implements FitnessFunction {
                         person.getChromosomeByNumber(2).getValue() * Vi.get(i) +
                         person.getChromosomeByNumber(3).getValue() * Vi1.get(i) +
                         person.getChromosomeByNumber(4).getValue() * Hi.get(i) +
-                        person.getChromosomeByNumber(5).getValue() * Tkp.get(i)), 2.0);
+                        person.getChromosomeByNumber(5).getValue() * Tkp.get(i) +
+                        person.getChromosomeByNumber(6).getValue()), 2.0);
             }
             fitnessValue = NUMBER_OF_ROWS / fitnessValue;
+            fitnessValue = Math.sqrt(fitnessValue);
         } catch (IOException e) {
             e.printStackTrace();
         }
