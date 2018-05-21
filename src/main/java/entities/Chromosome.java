@@ -3,20 +3,20 @@ package entities;
 import java.util.Objects;
 
 public class Chromosome {
-    private int value;
+    private double value;
 
     public Chromosome() {
     }
 
-    public Chromosome(int value) {
+    public Chromosome(double value) {
         this.value = value;
     }
 
-    public int getValue() {
+    public double getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(double value) {
         this.value = value;
     }
 
@@ -32,7 +32,7 @@ public class Chromosome {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Chromosome that = (Chromosome) o;
-        return value == that.value;
+        return Double.compare(that.value, value) == 0;
     }
 
     @Override

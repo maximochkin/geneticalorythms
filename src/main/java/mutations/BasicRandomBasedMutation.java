@@ -20,9 +20,9 @@ public class BasicRandomBasedMutation implements Mutation {
     }
 
     private void mutateInChromosome(Person person, int chromosomeNumber, PersonTemplate template) {
-        int minValue = template.getLimits().get(chromosomeNumber).first();
-        int maxValue = template.getLimits().get(chromosomeNumber).second();
-        int newValueForChromosome = ThreadLocalRandom.current().nextInt(minValue, maxValue);
+        Double minValue = template.getLimits().get(chromosomeNumber).first();
+        Double maxValue = template.getLimits().get(chromosomeNumber).second();
+        double newValueForChromosome = ThreadLocalRandom.current().nextDouble(minValue, maxValue);
         person.setChromosomeByNumber(chromosomeNumber, new Chromosome(newValueForChromosome));
     }
 

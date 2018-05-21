@@ -24,19 +24,9 @@ import java.util.List;
 
 public class Main {
 
-	public static final int TEMPLATE_SIZE = 7;
-	public static final int NUMBER_OF_ITERATIONS = 500;
+	private static final int TEMPLATE_SIZE = 7;
+	private static final int NUMBER_OF_ITERATIONS = 100;
 
-	/** Best result 0.04
-	 * 	0.005
-	 * 	0.023
-	 * 	0.03
-	 * 	0.036
-	 * 	0.019
-	 * 	0.014
-	 * 	0.035
-	 *
-	 */
 	public static void main(String[] args) {
 		PopulationInitializer populationInitializer = new BasicRandomPopulationInitializer();
 		PersonInitializer personInitializer = new BasicRandomPersonInitializer();
@@ -54,14 +44,14 @@ public class Main {
 	}
 
 	private static PersonTemplate preparePersonTemplate() {
-		List<Pair<Integer, Integer>> limits = Arrays.asList(
-				new Pair<>(-100, 100),
-				new Pair<>(-100, 100),
-				new Pair<>(-100, 100),
-				new Pair<>(-100, 100),
-				new Pair<>(-100, 100),
-				new Pair<>(-100, 100),
-				new Pair<>(-100, 100)
+		List<Pair<Double, Double>> limits = Arrays.asList(
+				new Pair<>(-100.0d, 100.0d),
+				new Pair<>(-100.0d, 100.0d),
+				new Pair<>(-100.0d, 100.0d),
+				new Pair<>(-100.0d, 100.0d),
+				new Pair<>(-100.0d, 100.0d),
+				new Pair<>(-100.0d, 100.0d),
+				new Pair<>(-100.0d, 100.0d)
 		);
 
 		PersonTemplate template = new PersonTemplate(TEMPLATE_SIZE, limits);

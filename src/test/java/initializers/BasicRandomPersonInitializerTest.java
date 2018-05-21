@@ -23,18 +23,18 @@ public class BasicRandomPersonInitializerTest {
         }
     }
 
-    private void checkChromosome(Chromosome chromosome, Pair<Integer, Integer> limits) {
+    private void checkChromosome(Chromosome chromosome, Pair<Double, Double> limits) {
         Assert.assertTrue(chromosome.getValue() >= limits.first());
         Assert.assertTrue(chromosome.getValue() < limits.second());
     }
 
     private PersonTemplate preparePersonTemplate() {
-        List<Pair<Integer, Integer>> limits = Arrays.asList(
-                new Pair<>(0, 10),
-                new Pair<>(5, 7),
-                new Pair<>(10,20),
-                new Pair<>(100, 200),
-                new Pair<>(-20, -10)
+        List<Pair<Double, Double>> limits = Arrays.asList(
+                new Pair<>(0.0d, 10.0d),
+                new Pair<>(5.0d, 7.0d),
+                new Pair<>(10.0d, 20.0d),
+                new Pair<>(100.0d, 200.0d),
+                new Pair<>(-20.0d, -10.0d)
         );
 
         PersonTemplate template = new PersonTemplate(TEMPLATE_SIZE, limits);

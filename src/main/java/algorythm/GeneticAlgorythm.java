@@ -21,8 +21,8 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class GeneticAlgorythm {
-    private static final int MAX_SIZE_OF_POPULATION = 50000;
-    private static final int INITIAL_SIZE_OF_POPULATION = 50000;
+    private static final int MAX_SIZE_OF_POPULATION = 10000;
+    private static final int INITIAL_SIZE_OF_POPULATION = 10000;
     private static final double PRECISION = 0.01;
     private static final double MUTATION_PROBABILITY = 0.1;
     private static final Logger LOGGER = Logger.getLogger(GeneticAlgorythm.class.getName());

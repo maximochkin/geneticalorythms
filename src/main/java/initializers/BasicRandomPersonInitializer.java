@@ -7,6 +7,7 @@ import utils.Pair;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class BasicRandomPersonInitializer implements PersonInitializer {
@@ -23,7 +24,7 @@ public class BasicRandomPersonInitializer implements PersonInitializer {
         return person;
     }
 
-    private int generateRandomValue(Pair<Integer, Integer> limits) {
-        return ThreadLocalRandom.current().nextInt(limits.first(), limits.second());
+    private Double generateRandomValue(Pair<Double, Double> limits) {
+        return ThreadLocalRandom.current().nextDouble(limits.first(), limits.second());
     }
 }
