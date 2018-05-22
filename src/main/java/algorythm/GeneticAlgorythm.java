@@ -23,7 +23,7 @@ import java.util.logging.SimpleFormatter;
 public class GeneticAlgorythm {
     private static final int MAX_SIZE_OF_POPULATION = 10000;
     private static final int INITIAL_SIZE_OF_POPULATION = 10000;
-    private static final double PRECISION = 0.01;
+    private static final double PRECISION = 0.1;
     private static final double MUTATION_PROBABILITY = 0.1;
     private static final Logger LOGGER = Logger.getLogger(GeneticAlgorythm.class.getName());
 
@@ -61,6 +61,9 @@ public class GeneticAlgorythm {
 
         Person bestOfTheBest = null;
         Person localBest;
+        int iterationWhenWeFoundBest = 0;
+        boolean firstTime = true;
+        int iterationWhenWeFoundAppropriateSolution = 0;
 
         for (int i = 0; i < numberOfIterations; i++) {
 
@@ -81,10 +84,19 @@ public class GeneticAlgorythm {
             localBest = population.getPersonByNumber(0);
             if (bestOfTheBest == null || localBest.getFitnessValue() > bestOfTheBest.getFitnessValue()) {
                 bestOfTheBest = localBest.copy();
+                iterationWhenWeFoundBest = i;
             }
+
+            if (localBest.getFitnessValue() > PRECISION && firstTime) {
+				iterationWhenWeFoundAppropriateSolution = i;
+				firstTime = false;
+			}
 
             LOGGER.info("STEP: " + i + " | " + population.getPersonByNumber(0).toString());
         }
+
+		System.out.println("Iteration when we found appropriate: " + iterationWhenWeFoundAppropriateSolution);
+		System.out.println("Iteration when we found best: " + iterationWhenWeFoundBest);
 
         return bestOfTheBest;
 
