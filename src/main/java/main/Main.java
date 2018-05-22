@@ -1,7 +1,7 @@
 package main;
 
 import algorythm.GeneticAlgorythm;
-import crossover.methods.BasicOnePointCrossover;
+import crossover.methods.BLXAlphaCrossoverMethod;
 import crossover.methods.CrossoverMethod;
 import crossover.strategies.CrossoverStrategy;
 import crossover.strategies.TournamentCrossoverStrategy;
@@ -25,13 +25,13 @@ import java.util.List;
 public class Main {
 
 	private static final int TEMPLATE_SIZE = 7;
-	private static final int NUMBER_OF_ITERATIONS = 100;
+	private static final int NUMBER_OF_ITERATIONS = 500;
 
 	public static void main(String[] args) {
 		PopulationInitializer populationInitializer = new BasicRandomPopulationInitializer();
 		PersonInitializer personInitializer = new BasicRandomPersonInitializer();
 		Mutation mutation = new BasicRandomBasedMutation();
-		CrossoverMethod crossoverMethod = new BasicOnePointCrossover();
+		CrossoverMethod crossoverMethod = new BLXAlphaCrossoverMethod();
 		CrossoverStrategy crossoverStrategy = new TournamentCrossoverStrategy();
 		PersonTemplate personTemplate = preparePersonTemplate();
 		FitnessFunction fitnessFunction = new AvgSqrFitnessFunctionForFacility();

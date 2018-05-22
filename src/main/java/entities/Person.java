@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class Person implements Comparable<Person> {
     private int size; //number of chromosomes
@@ -81,5 +82,15 @@ public class Person implements Comparable<Person> {
                 "fitness=" + fitnessValue +
                 " | chromosomes=" + chromosomes +
                 '}';
+    }
+
+    public Person copy() {
+        List<Chromosome> newChromosomes = this.getChromosomes().stream()
+                .map(chromosome -> new Chromosome(chromosome.getValue()))
+                .collect(Collectors.toList());
+
+        Person newPerson = new Person(this.getSize(), newChromosomes);
+        newPerson.setFitnessValue(this.getFitnessValue());
+        return newPerson;
     }
 }

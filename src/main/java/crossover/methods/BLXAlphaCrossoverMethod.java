@@ -32,6 +32,7 @@ public class BLXAlphaCrossoverMethod implements CrossoverMethod {
             );
             child2.setChromosomeByNumber(i, new Chromosome(newValueForSecondChild));
         }
+
         return Arrays.asList(child1, child2);
     }
 

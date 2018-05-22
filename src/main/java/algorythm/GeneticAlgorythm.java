@@ -80,7 +80,7 @@ public class GeneticAlgorythm {
 
             localBest = population.getPersonByNumber(0);
             if (bestOfTheBest == null || localBest.getFitnessValue() > bestOfTheBest.getFitnessValue()) {
-                bestOfTheBest = localBest;
+                bestOfTheBest = localBest.copy();
             }
 
             LOGGER.info("STEP: " + i + " | " + population.getPersonByNumber(0).toString());
