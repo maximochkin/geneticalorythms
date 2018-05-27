@@ -2,8 +2,11 @@ package main;
 
 import algorythm.GeneticAlgorythm;
 import crossover.methods.BLXAlphaCrossoverMethod;
+import crossover.methods.BasicOnePointCrossover;
 import crossover.methods.CrossoverMethod;
 import crossover.strategies.CrossoverStrategy;
+import crossover.strategies.RandomParentsCrossoverStrategy;
+import crossover.strategies.RouletteCrossoverStrategy;
 import crossover.strategies.TournamentCrossoverStrategy;
 import entities.Person;
 import entities.PersonTemplate;
@@ -15,6 +18,7 @@ import initializers.PersonInitializer;
 import initializers.PopulationInitializer;
 import mutations.BasicRandomBasedMutation;
 import mutations.Mutation;
+import selection.MGGSelection;
 import selection.RemoveTheWorstSelector;
 import selection.Selector;
 import utils.Pair;
@@ -25,20 +29,19 @@ import java.util.List;
 public class Main {
 
 	private static final int TEMPLATE_SIZE = 7;
-	private static final int NUMBER_OF_ITERATIONS = 500;
 
 	public static void main(String[] args) {
 		PopulationInitializer populationInitializer = new BasicRandomPopulationInitializer();
 		PersonInitializer personInitializer = new BasicRandomPersonInitializer();
 		Mutation mutation = new BasicRandomBasedMutation();
-		CrossoverMethod crossoverMethod = new BLXAlphaCrossoverMethod();
-		CrossoverStrategy crossoverStrategy = new TournamentCrossoverStrategy();
+		CrossoverMethod crossoverMethod = new BasicOnePointCrossover();
+		CrossoverStrategy crossoverStrategy = new RandomParentsCrossoverStrategy();
 		PersonTemplate personTemplate = preparePersonTemplate();
 		FitnessFunction fitnessFunction = new AvgSqrFitnessFunctionForFacility();
-		Selector selector = new RemoveTheWorstSelector();
+		Selector selector = new MGGSelection();
 
 		Person bestOfTheBest = new GeneticAlgorythm(populationInitializer, personInitializer, mutation, crossoverMethod, crossoverStrategy,
-				personTemplate, fitnessFunction, selector).start(NUMBER_OF_ITERATIONS);
+				personTemplate, fitnessFunction, selector).start();
 
 		System.out.println(bestOfTheBest.toString());
 	}

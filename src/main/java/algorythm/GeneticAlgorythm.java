@@ -21,11 +21,13 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class GeneticAlgorythm {
+    private static final int NUMBER_OF_ITERATIONS = 500;
     private static final int MAX_SIZE_OF_POPULATION = 10000;
     private static final int INITIAL_SIZE_OF_POPULATION = 10000;
     private static final double PRECISION = 0.1;
     private static final double MUTATION_PROBABILITY = 0.1;
     private static final Logger LOGGER = Logger.getLogger(GeneticAlgorythm.class.getName());
+
 
     private PopulationInitializer populationInitializer;
     private PersonInitializer personInitializer;
@@ -49,7 +51,7 @@ public class GeneticAlgorythm {
         this.selector = selector;
     }
 
-    public Person start(int numberOfIterations) {
+    public Person start() {
 
         initLogging();
 
@@ -65,21 +67,19 @@ public class GeneticAlgorythm {
         boolean firstTime = true;
         int iterationWhenWeFoundAppropriateSolution = 0;
 
-        for (int i = 0; i < numberOfIterations; i++) {
+        for (int i = 0; i < NUMBER_OF_ITERATIONS; i++) {
 
             List<Person> children = crossoverStrategy.crossover(population, crossoverMethod);
 
             mutation.mutate(population, personTemplate, MUTATION_PROBABILITY);
 
-            population.add(children);
-
             population.calculateFitnessFunction(fitnessFunction);
 
-            population.distinct();
+            children.forEach(fitnessFunction::apply);
+
+            selector.select(population, MAX_SIZE_OF_POPULATION, children);
 
             population.sort();
-
-            selector.select(population, MAX_SIZE_OF_POPULATION, children.size());
 
             localBest = population.getPersonByNumber(0);
             if (bestOfTheBest == null || localBest.getFitnessValue() > bestOfTheBest.getFitnessValue()) {
@@ -92,7 +92,13 @@ public class GeneticAlgorythm {
 				firstTime = false;
 			}
 
+			double averageFitnessOfPopulation = population.getPopulation().stream()
+                    .mapToDouble(Person::getFitnessValue)
+                    .average()
+                    .getAsDouble();
+
             LOGGER.info("STEP: " + i + " | " + population.getPersonByNumber(0).toString());
+            LOGGER.info("STEP: " + i + " | AverageFitness = " + averageFitnessOfPopulation);
         }
 
 		System.out.println("Iteration when we found appropriate: " + iterationWhenWeFoundAppropriateSolution);

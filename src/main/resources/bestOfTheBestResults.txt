@@ -1,329 +1,333 @@
-POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0.0
+POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0,0
 
 Iteration when we found appropriate: 171
 Iteration when we found best: 184
-Person{fitness=0.1536400798795584 | chromosomes=[Chromosome{value=1.494752208218408}, Chromosome{value=-6.917549043139047}, Chromosome{value=-1.0856623229151516}, Chromosome{value=1.3729831060822912}, Chromosome{value=63.36853136522523}, Chromosome{value=0.36786318149071795}, Chromosome{value=48.76177263599261}]}
+Person{fitness=0,1536400798795584 | chromosomes=[Chromosome{value=1,494752208218408}, Chromosome{value=-6,917549043139047}, Chromosome{value=-1,0856623229151516}, Chromosome{value=1,3729831060822912}, Chromosome{value=63,36853136522523}, Chromosome{value=0,36786318149071795}, Chromosome{value=48,76177263599261}]}
 
 Iteration when we found appropriate: 188
 Iteration when we found best: 309
-Person{fitness=0.16180865776725403 | chromosomes=[Chromosome{value=-2.4624982189947318}, Chromosome{value=0.07445192368945897}, Chromosome{value=-5.068469448417513}, Chromosome{value=5.126566689714564}, Chromosome{value=47.93285566384418}, Chromosome{value=0.4583139491364881}, Chromosome{value=169.37934363139476}]}
+Person{fitness=0,16180865776725403 | chromosomes=[Chromosome{value=-2,4624982189947318}, Chromosome{value=0,07445192368945897}, Chromosome{value=-5,068469448417513}, Chromosome{value=5,126566689714564}, Chromosome{value=47,93285566384418}, Chromosome{value=0,4583139491364881}, Chromosome{value=169,37934363139476}]}
 
 Iteration when we found appropriate: 198
 Iteration when we found best: 469
-Person{fitness=0.2728439479310888 | chromosomes=[Chromosome{value=1.6448006536226174}, Chromosome{value=-3.950934783961234}, Chromosome{value=-0.43704412699057865}, Chromosome{value=0.5932099061783622}, Chromosome{value=37.16813775834423}, Chromosome{value=0.6274244929990433}, Chromosome{value=-36.82295004211237}]}
+Person{fitness=0,2728439479310888 | chromosomes=[Chromosome{value=1,6448006536226174}, Chromosome{value=-3,950934783961234}, Chromosome{value=-0,43704412699057865}, Chromosome{value=0,5932099061783622}, Chromosome{value=37,16813775834423}, Chromosome{value=0,6274244929990433}, Chromosome{value=-36,82295004211237}]}
 
 Iteration when we found appropriate: 243
 Iteration when we found best: 452
-Person{fitness=0.3066734594299359 | chromosomes=[Chromosome{value=-0.47414335232473803}, Chromosome{value=-2.3261705702786646}, Chromosome{value=-0.061205590351271905}, Chromosome{value=0.21069667338026501}, Chromosome{value=37.95540668737895}, Chromosome{value=0.6996001182678022}, Chromosome{value=-86.77742283357591}]}
+Person{fitness=0,3066734594299359 | chromosomes=[Chromosome{value=-0,47414335232473803}, Chromosome{value=-2,3261705702786646}, Chromosome{value=-0,061205590351271905}, Chromosome{value=0,21069667338026501}, Chromosome{value=37,95540668737895}, Chromosome{value=0,6996001182678022}, Chromosome{value=-86,77742283357591}]}
 
 Iteration when we found appropriate: 60
 Iteration when we found best: 475
-Person{fitness=0.17579964832415013 | chromosomes=[Chromosome{value=2.713366419750905}, Chromosome{value=-2.3112015692517147}, Chromosome{value=4.137365907366327}, Chromosome{value=-4.074867082690797}, Chromosome{value=78.47903116761842}, Chromosome{value=0.6747801824400408}, Chromosome{value=-108.95794663671892}]}
+Person{fitness=0,17579964832415013 | chromosomes=[Chromosome{value=2,713366419750905}, Chromosome{value=-2,3112015692517147}, Chromosome{value=4,137365907366327}, Chromosome{value=-4,074867082690797}, Chromosome{value=78,47903116761842}, Chromosome{value=0,6747801824400408}, Chromosome{value=-108,95794663671892}]}
 
 Iteration when we found appropriate: 248
 Iteration when we found best: 286
-Person{fitness=0.12721404939998623 | chromosomes=[Chromosome{value=7.655081516276532}, Chromosome{value=-10.824087435624778}, Chromosome{value=4.6548364256914665}, Chromosome{value=-4.527863792002472}, Chromosome{value=46.9170781380833}, Chromosome{value=0.5315242102157054}, Chromosome{value=39.39895356893599}]}
+Person{fitness=0,12721404939998623 | chromosomes=[Chromosome{value=7,655081516276532}, Chromosome{value=-10,824087435624778}, Chromosome{value=4,6548364256914665}, Chromosome{value=-4,527863792002472}, Chromosome{value=46,9170781380833}, Chromosome{value=0,5315242102157054}, Chromosome{value=39,39895356893599}]}
 
 Iteration when we found appropriate: 276
 Iteration when we found best: 434
-Person{fitness=0.17627885612112382 | chromosomes=[Chromosome{value=2.18980207728627}, Chromosome{value=-1.4607891349634343}, Chromosome{value=-4.500499385291979}, Chromosome{value=4.615324209088149}, Chromosome{value=62.83704506896404}, Chromosome{value=0.18510027075822744}, Chromosome{value=281.0964511172077}]}
+Person{fitness=0,17627885612112382 | chromosomes=[Chromosome{value=2,18980207728627}, Chromosome{value=-1,4607891349634343}, Chromosome{value=-4,500499385291979}, Chromosome{value=4,615324209088149}, Chromosome{value=62,83704506896404}, Chromosome{value=0,18510027075822744}, Chromosome{value=281,0964511172077}]}
 
 Iteration when we found appropriate: 102
 Iteration when we found best: 490
-Person{fitness=0.21961840499225166 | chromosomes=[Chromosome{value=-2.8073266763751494}, Chromosome{value=-2.3323638085559595}, Chromosome{value=2.6676931903251178}, Chromosome{value=-2.511512019290977}, Chromosome{value=66.91550621353485}, Chromosome{value=0.763712037709447}, Chromosome{value=-177.84797790148428}]}
+Person{fitness=0,21961840499225166 | chromosomes=[Chromosome{value=-2,8073266763751494}, Chromosome{value=-2,3323638085559595}, Chromosome{value=2,6676931903251178}, Chromosome{value=-2,511512019290977}, Chromosome{value=66,91550621353485}, Chromosome{value=0,763712037709447}, Chromosome{value=-177,84797790148428}]}
 
 Iteration when we found appropriate: 235
 Iteration when we found best: 425
-Person{fitness=0.2522973120508724 | chromosomes=[Chromosome{value=-2.0395706118284203}, Chromosome{value=-2.9355715225526406}, Chromosome{value=0.5442017923024318}, Chromosome{value=-0.28802353646440526}, Chromosome{value=112.42439514543537}, Chromosome{value=0.5650890815730808}, Chromosome{value=-180.59564878358873}]}
+Person{fitness=0,2522973120508724 | chromosomes=[Chromosome{value=-2,0395706118284203}, Chromosome{value=-2,9355715225526406}, Chromosome{value=0,5442017923024318}, Chromosome{value=-0,28802353646440526}, Chromosome{value=112,42439514543537}, Chromosome{value=0,5650890815730808}, Chromosome{value=-180,59564878358873}]}
 
 Iteration when we found appropriate: 333
 Iteration when we found best: 414
-Person{fitness=0.14576521405690537 | chromosomes=[Chromosome{value=-1.5140363729689401}, Chromosome{value=1.2440761548018315}, Chromosome{value=-6.368286785500642}, Chromosome{value=6.389958057820002}, Chromosome{value=6.240753574746812}, Chromosome{value=0.7136367249596941}, Chromosome{value=50.24690260546879}]}
+Person{fitness=0,14576521405690537 | chromosomes=[Chromosome{value=-1,5140363729689401}, Chromosome{value=1,2440761548018315}, Chromosome{value=-6,368286785500642}, Chromosome{value=6,389958057820002}, Chromosome{value=6,240753574746812}, Chromosome{value=0,7136367249596941}, Chromosome{value=50,24690260546879}]}
+
+Iteration when we found appropriate: 224
+Iteration when we found best: 467
+Person{fitness=0,30789832424012215 | chromosomes=[Chromosome{value=0,4476775022913202}, Chromosome{value=-2,9492431885066246}, Chromosome{value=0,7827628664531093}, Chromosome{value=-0,6366975229771514}, Chromosome{value=82,96122150436628}, Chromosome{value=0,415498889760102}, Chromosome{value=56,2353892468271}]}
 
 ____________________________________________________________________________________________________________________________________
 
-POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0.1
+POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0,1
 
 Iteration when we found appropriate: 159
 Iteration when we found best: 295
-Person{fitness=0.15892069736958594 | chromosomes=[Chromosome{value=2.208489493197731}, Chromosome{value=-1.4118642533358852}, Chromosome{value=-4.569447152886508}, Chromosome{value=4.694654973529454}, Chromosome{value=80.68121383655578}, Chromosome{value=0.718685475787661}, Chromosome{value=-186.0815948309196}]}
+Person{fitness=0,15892069736958594 | chromosomes=[Chromosome{value=2,208489493197731}, Chromosome{value=-1,4118642533358852}, Chromosome{value=-4,569447152886508}, Chromosome{value=4,694654973529454}, Chromosome{value=80,68121383655578}, Chromosome{value=0,718685475787661}, Chromosome{value=-186,0815948309196}]}
 
 Iteration when we found appropriate: 224
 Iteration when we found best: 281
-Person{fitness=0.12343868025691923 | chromosomes=[Chromosome{value=4.43638052328237}, Chromosome{value=-7.166232064110561}, Chromosome{value=8.315388862319692}, Chromosome{value=-8.02410495778035}, Chromosome{value=91.5208066238804}, Chromosome{value=0.3824869462409412}, Chromosome{value=-65.82803362666657}]}
+Person{fitness=0,12343868025691923 | chromosomes=[Chromosome{value=4,43638052328237}, Chromosome{value=-7,166232064110561}, Chromosome{value=8,315388862319692}, Chromosome{value=-8,02410495778035}, Chromosome{value=91,5208066238804}, Chromosome{value=0,3824869462409412}, Chromosome{value=-65,82803362666657}]}
 
 Iteration when we found appropriate: 140
 Iteration when we found best: 180
-Person{fitness=0.2079586326025755 | chromosomes=[Chromosome{value=0.9664888481751674}, Chromosome{value=-6.072619140014989}, Chromosome{value=2.3803290903272587}, Chromosome{value=-2.166450519855829}, Chromosome{value=40.00183406991488}, Chromosome{value=0.5167595649562102}, Chromosome{value=19.129390584147977}]}
+Person{fitness=0,2079586326025755 | chromosomes=[Chromosome{value=0,9664888481751674}, Chromosome{value=-6,072619140014989}, Chromosome{value=2,3803290903272587}, Chromosome{value=-2,166450519855829}, Chromosome{value=40,00183406991488}, Chromosome{value=0,5167595649562102}, Chromosome{value=19,129390584147977}]}
 
 Iteration when we found appropriate: 217
 Iteration when we found best: 362
-Person{fitness=0.1357696336842936 | chromosomes=[Chromosome{value=4.504985804386159}, Chromosome{value=-9.02816291000615}, Chromosome{value=7.000446237549761}, Chromosome{value=-6.806023803984701}, Chromosome{value=27.580038195114188}, Chromosome{value=0.7694063384053028}, Chromosome{value=-158.32773492599713}]}
+Person{fitness=0,1357696336842936 | chromosomes=[Chromosome{value=4,504985804386159}, Chromosome{value=-9,02816291000615}, Chromosome{value=7,000446237549761}, Chromosome{value=-6,806023803984701}, Chromosome{value=27,580038195114188}, Chromosome{value=0,7694063384053028}, Chromosome{value=-158,32773492599713}]}
 
 Iteration when we found appropriate: 186
 Iteration when we found best: 345
-Person{fitness=0.167672271502623 | chromosomes=[Chromosome{value=-1.6226301265337932}, Chromosome{value=-1.15666817784183}, Chromosome{value=-3.250687542170935}, Chromosome{value=3.5471314850650733}, Chromosome{value=187.37530947863704}, Chromosome{value=0.12077099103353339}, Chromosome{value=-10.967695390821152}]}
+Person{fitness=0,167672271502623 | chromosomes=[Chromosome{value=-1,6226301265337932}, Chromosome{value=-1,15666817784183}, Chromosome{value=-3,250687542170935}, Chromosome{value=3,5471314850650733}, Chromosome{value=187,37530947863704}, Chromosome{value=0,12077099103353339}, Chromosome{value=-10,967695390821152}]}
 
 Iteration when we found appropriate: 163
 Iteration when we found best: 226
-Person{fitness=0.30158268852745923 | chromosomes=[Chromosome{value=-0.7986824308552993}, Chromosome{value=-1.2779641674766868}, Chromosome{value=-0.4296642963445044}, Chromosome{value=0.5828387253501782}, Chromosome{value=74.32802394542045}, Chromosome{value=0.31223302989383817}, Chromosome{value=146.05005953449978}]}
+Person{fitness=0,30158268852745923 | chromosomes=[Chromosome{value=-0,7986824308552993}, Chromosome{value=-1,2779641674766868}, Chromosome{value=-0,4296642963445044}, Chromosome{value=0,5828387253501782}, Chromosome{value=74,32802394542045}, Chromosome{value=0,31223302989383817}, Chromosome{value=146,05005953449978}]}
 
 Iteration when we found appropriate: 157
 Iteration when we found best: 388
-Person{fitness=0.2153741486159282 | chromosomes=[Chromosome{value=0.011849485836082252}, Chromosome{value=-2.335380302708739}, Chromosome{value=-2.923838193015804}, Chromosome{value=3.1045695522191505}, Chromosome{value=91.9594068946601}, Chromosome{value=0.30275932115325843}, Chromosome{value=105.5616067114185}]}
+Person{fitness=0,2153741486159282 | chromosomes=[Chromosome{value=0,011849485836082252}, Chromosome{value=-2,335380302708739}, Chromosome{value=-2,923838193015804}, Chromosome{value=3,1045695522191505}, Chromosome{value=91,9594068946601}, Chromosome{value=0,30275932115325843}, Chromosome{value=105,5616067114185}]}
 
 Iteration when we found appropriate: 174
 Iteration when we found best: 274
-Person{fitness=0.1328141129914684 | chromosomes=[Chromosome{value=-4.295968768562057}, Chromosome{value=-2.2660042990210414}, Chromosome{value=6.342645069845048}, Chromosome{value=-6.117673469789843}, Chromosome{value=44.680050808146156}, Chromosome{value=0.4872562213366207}, Chromosome{value=31.09600077968736}]}
+Person{fitness=0,1328141129914684 | chromosomes=[Chromosome{value=-4,295968768562057}, Chromosome{value=-2,2660042990210414}, Chromosome{value=6,342645069845048}, Chromosome{value=-6,117673469789843}, Chromosome{value=44,680050808146156}, Chromosome{value=0,4872562213366207}, Chromosome{value=31,09600077968736}]}
 
 Iteration when we found appropriate: 178
 Iteration when we found best: 366
-Person{fitness=0.2255851079140398 | chromosomes=[Chromosome{value=0.6024185277942533}, Chromosome{value=-1.6060085007338707}, Chromosome{value=-1.8904013755381244}, Chromosome{value=1.879305801470746}, Chromosome{value=-3.7787729147209035}, Chromosome{value=0.844343745002856}, Chromosome{value=-8.464480603526745}]}
+Person{fitness=0,2255851079140398 | chromosomes=[Chromosome{value=0,6024185277942533}, Chromosome{value=-1,6060085007338707}, Chromosome{value=-1,8904013755381244}, Chromosome{value=1,879305801470746}, Chromosome{value=-3,7787729147209035}, Chromosome{value=0,844343745002856}, Chromosome{value=-8,464480603526745}]}
 
 Iteration when we found appropriate: 202
 Iteration when we found best: 245
-Person{fitness=0.10486209264916828 | chromosomes=[Chromosome{value=4.750151899533364}, Chromosome{value=-9.233840876157341}, Chromosome{value=5.810320315072325}, Chromosome{value=-5.4356264397927125}, Chromosome{value=-48.50044969205183}, Chromosome{value=0.5111640456332951}, Chromosome{value=31.617898665961533}]}
+Person{fitness=0,10486209264916828 | chromosomes=[Chromosome{value=4,750151899533364}, Chromosome{value=-9,233840876157341}, Chromosome{value=5,810320315072325}, Chromosome{value=-5,4356264397927125}, Chromosome{value=-48,50044969205183}, Chromosome{value=0,5111640456332951}, Chromosome{value=31,617898665961533}]}
 
 Iteration when we found appropriate: 176
 Iteration when we found best: 184
-Person{fitness=0.15199644963931316 | chromosomes=[Chromosome{value=-0.06815179931254267}, Chromosome{value=-0.9164257047496227}, Chromosome{value=0.29505479650284544}, Chromosome{value=-0.06803744172328396}, Chromosome{value=-65.65654189421447}, Chromosome{value=0.8529867503966846}, Chromosome{value=-104.56047621601518}]}
+Person{fitness=0,15199644963931316 | chromosomes=[Chromosome{value=-0,06815179931254267}, Chromosome{value=-0,9164257047496227}, Chromosome{value=0,29505479650284544}, Chromosome{value=-0,06803744172328396}, Chromosome{value=-65,65654189421447}, Chromosome{value=0,8529867503966846}, Chromosome{value=-104,56047621601518}]}
 
 
 ____________________________________________________________________________________________________________________________________
 
-POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0.2
+POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0,2
 
 Iteration when we found appropriate: 130
 Iteration when we found best: 213
-Person{fitness=0.23764006147942884 | chromosomes=[Chromosome{value=0.7936365673710579}, Chromosome{value=-1.67480115875777}, Chromosome{value=-2.2912659739110377}, Chromosome{value=2.3575269039546947}, Chromosome{value=11.932460845195777}, Chromosome{value=0.6527012006557156}, Chromosome{value=49.43290721044538}]}
+Person{fitness=0,23764006147942884 | chromosomes=[Chromosome{value=0,7936365673710579}, Chromosome{value=-1,67480115875777}, Chromosome{value=-2,2912659739110377}, Chromosome{value=2,3575269039546947}, Chromosome{value=11,932460845195777}, Chromosome{value=0,6527012006557156}, Chromosome{value=49,43290721044538}]}
 
 Iteration when we found appropriate: 121
 Iteration when we found best: 169
-Person{fitness=0.20134709907808476 | chromosomes=[Chromosome{value=5.070387352148622}, Chromosome{value=-3.745465879552266}, Chromosome{value=-0.12545470413758075}, Chromosome{value=0.13225753091994535}, Chromosome{value=36.30181929636769}, Chromosome{value=0.6405449988755761}, Chromosome{value=41.19827803393456}]}
+Person{fitness=0,20134709907808476 | chromosomes=[Chromosome{value=5,070387352148622}, Chromosome{value=-3,745465879552266}, Chromosome{value=-0,12545470413758075}, Chromosome{value=0,13225753091994535}, Chromosome{value=36,30181929636769}, Chromosome{value=0,6405449988755761}, Chromosome{value=41,19827803393456}]}
 
 Iteration when we found appropriate: 120
 Iteration when we found best: 258
-Person{fitness=0.180499642146549 | chromosomes=[Chromosome{value=-0.053663252537972994}, Chromosome{value=-1.0067266783732411}, Chromosome{value=-4.812297096224286}, Chromosome{value=4.9030043091018936}, Chromosome{value=-2.1827771549567396}, Chromosome{value=0.5796750710947474}, Chromosome{value=121.13586676961906}]}
+Person{fitness=0,180499642146549 | chromosomes=[Chromosome{value=-0,053663252537972994}, Chromosome{value=-1,0067266783732411}, Chromosome{value=-4,812297096224286}, Chromosome{value=4,9030043091018936}, Chromosome{value=-2,1827771549567396}, Chromosome{value=0,5796750710947474}, Chromosome{value=121,13586676961906}]}
 
 Iteration when we found appropriate: 133
 Iteration when we found best: 264
-Person{fitness=0.20544280257539224 | chromosomes=[Chromosome{value=-0.48983826464461977}, Chromosome{value=-1.82044337019655}, Chromosome{value=-3.394752616018542}, Chromosome{value=3.544252916626305}, Chromosome{value=105.21214554292055}, Chromosome{value=0.3934327996415825}, Chromosome{value=37.91659634049989}]}
+Person{fitness=0,20544280257539224 | chromosomes=[Chromosome{value=-0,48983826464461977}, Chromosome{value=-1,82044337019655}, Chromosome{value=-3,394752616018542}, Chromosome{value=3,544252916626305}, Chromosome{value=105,21214554292055}, Chromosome{value=0,3934327996415825}, Chromosome{value=37,91659634049989}]}
 
 Iteration when we found appropriate: 176
 Iteration when we found best: 176
-Person{fitness=0.10534606250965971 | chromosomes=[Chromosome{value=12.22041260669267}, Chromosome{value=-11.304353920793329}, Chromosome{value=-4.323287725940119}, Chromosome{value=4.581986588105654}, Chromosome{value=72.8246159368907}, Chromosome{value=0.2548649002781156}, Chromosome{value=85.97587391056655}]}
+Person{fitness=0,10534606250965971 | chromosomes=[Chromosome{value=12,22041260669267}, Chromosome{value=-11,304353920793329}, Chromosome{value=-4,323287725940119}, Chromosome{value=4,581986588105654}, Chromosome{value=72,8246159368907}, Chromosome{value=0,2548649002781156}, Chromosome{value=85,97587391056655}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 156
-Person{fitness=0.07835243156052252 | chromosomes=[Chromosome{value=5.2464632485061955}, Chromosome{value=-1.884276185049754}, Chromosome{value=1.6095918181795947}, Chromosome{value=-2.2023187246870286}, Chromosome{value=-148.0737086917168}, Chromosome{value=1.5789749110719575}, Chromosome{value=97.06297380039152}]}
+Person{fitness=0,07835243156052252 | chromosomes=[Chromosome{value=5,2464632485061955}, Chromosome{value=-1,884276185049754}, Chromosome{value=1,6095918181795947}, Chromosome{value=-2,2023187246870286}, Chromosome{value=-148,0737086917168}, Chromosome{value=1,5789749110719575}, Chromosome{value=97,06297380039152}]}
 
 Iteration when we found appropriate: 100
 Iteration when we found best: 209
-Person{fitness=0.17012588383865473 | chromosomes=[Chromosome{value=3.8240739560083057}, Chromosome{value=-6.599384426276632}, Chromosome{value=4.857614145966266}, Chromosome{value=-4.7335912916918215}, Chromosome{value=-17.311829455327896}, Chromosome{value=0.828151642619963}, Chromosome{value=-80.19502511496749}]}
+Person{fitness=0,17012588383865473 | chromosomes=[Chromosome{value=3,8240739560083057}, Chromosome{value=-6,599384426276632}, Chromosome{value=4,857614145966266}, Chromosome{value=-4,7335912916918215}, Chromosome{value=-17,311829455327896}, Chromosome{value=0,828151642619963}, Chromosome{value=-80,19502511496749}]}
 
 Iteration when we found appropriate: 157
 Iteration when we found best: 157
-Person{fitness=0.11581168503269432 | chromosomes=[Chromosome{value=2.6626644067425858}, Chromosome{value=-0.604874038192726}, Chromosome{value=-6.588904806647026}, Chromosome{value=6.508734935563226}, Chromosome{value=-40.835982025723666}, Chromosome{value=1.0326885350779007}, Chromosome{value=-61.1348288879831}]}
+Person{fitness=0,11581168503269432 | chromosomes=[Chromosome{value=2,6626644067425858}, Chromosome{value=-0,604874038192726}, Chromosome{value=-6,588904806647026}, Chromosome{value=6,508734935563226}, Chromosome{value=-40,835982025723666}, Chromosome{value=1,0326885350779007}, Chromosome{value=-61,1348288879831}]}
 
 Iteration when we found appropriate: 99
 Iteration when we found best: 102
-Person{fitness=0.1224530685339403 | chromosomes=[Chromosome{value=-2.62531978358804}, Chromosome{value=-0.2506428753672223}, Chromosome{value=-1.8580610476070631}, Chromosome{value=1.8697718358096078}, Chromosome{value=92.95952660353464}, Chromosome{value=0.6056581812626218}, Chromosome{value=0.4952220103587024}]}
+Person{fitness=0,1224530685339403 | chromosomes=[Chromosome{value=-2,62531978358804}, Chromosome{value=-0,2506428753672223}, Chromosome{value=-1,8580610476070631}, Chromosome{value=1,8697718358096078}, Chromosome{value=92,95952660353464}, Chromosome{value=0,6056581812626218}, Chromosome{value=0,4952220103587024}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 158
-Person{fitness=0.09849730026110064 | chromosomes=[Chromosome{value=-4.421563626145769}, Chromosome{value=5.99975040205007}, Chromosome{value=2.2929069919405944}, Chromosome{value=-2.575722412666355}, Chromosome{value=-111.4399301079331}, Chromosome{value=1.3718199711762182}, Chromosome{value=-44.903377989715}]}
+Person{fitness=0,09849730026110064 | chromosomes=[Chromosome{value=-4,421563626145769}, Chromosome{value=5,99975040205007}, Chromosome{value=2,2929069919405944}, Chromosome{value=-2,575722412666355}, Chromosome{value=-111,4399301079331}, Chromosome{value=1,3718199711762182}, Chromosome{value=-44,903377989715}]}
 
 ____________________________________________________________________________________________________________________________________
 
-POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0.3
+POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0,3
 
 Iteration when we found appropriate: 132
 Iteration when we found best: 132
-Person{fitness=0.16005497513057915 | chromosomes=[Chromosome{value=-3.3669141723165}, Chromosome{value=-1.4788001901425516}, Chromosome{value=-1.0870440718948378}, Chromosome{value=1.116444567938096}, Chromosome{value=21.16297497139901}, Chromosome{value=0.6336921988057438}, Chromosome{value=116.80060878823245}]}
+Person{fitness=0,16005497513057915 | chromosomes=[Chromosome{value=-3,3669141723165}, Chromosome{value=-1,4788001901425516}, Chromosome{value=-1,0870440718948378}, Chromosome{value=1,116444567938096}, Chromosome{value=21,16297497139901}, Chromosome{value=0,6336921988057438}, Chromosome{value=116,80060878823245}]}
 
 Iteration when we found appropriate: 47
 Iteration when we found best: 274
-Person{fitness=0.2713093814252051 | chromosomes=[Chromosome{value=1.3226636035292691}, Chromosome{value=-3.6248918111288075}, Chromosome{value=2.1467347466397966}, Chromosome{value=-2.0139510236354137}, Chromosome{value=17.5277327116478}, Chromosome{value=0.6609716539265656}, Chromosome{value=-14.877486347091068}]}
+Person{fitness=0,2713093814252051 | chromosomes=[Chromosome{value=1,3226636035292691}, Chromosome{value=-3,6248918111288075}, Chromosome{value=2,1467347466397966}, Chromosome{value=-2,0139510236354137}, Chromosome{value=17,5277327116478}, Chromosome{value=0,6609716539265656}, Chromosome{value=-14,877486347091068}]}
 
 Iteration when we found appropriate: 102
 Iteration when we found best: 102
-Person{fitness=0.13303052707485072 | chromosomes=[Chromosome{value=-1.090274089683703}, Chromosome{value=-7.980765791753598}, Chromosome{value=4.175033251924246}, Chromosome{value=-3.787939537691324}, Chromosome{value=-84.14866156131485}, Chromosome{value=0.7365696840506555}, Chromosome{value=-37.42368041873026}]}
+Person{fitness=0,13303052707485072 | chromosomes=[Chromosome{value=-1,090274089683703}, Chromosome{value=-7,980765791753598}, Chromosome{value=4,175033251924246}, Chromosome{value=-3,787939537691324}, Chromosome{value=-84,14866156131485}, Chromosome{value=0,7365696840506555}, Chromosome{value=-37,42368041873026}]}
 
 Iteration when we found appropriate: 101
 Iteration when we found best: 165
-Person{fitness=0.24639249735176436 | chromosomes=[Chromosome{value=2.9146755108347797}, Chromosome{value=-2.3014395917239767}, Chromosome{value=-1.6376044962945562}, Chromosome{value=1.6929663137262383}, Chromosome{value=22.560563237336318}, Chromosome{value=0.5515784720948695}, Chromosome{value=103.83095573130218}]}
+Person{fitness=0,24639249735176436 | chromosomes=[Chromosome{value=2,9146755108347797}, Chromosome{value=-2,3014395917239767}, Chromosome{value=-1,6376044962945562}, Chromosome{value=1,6929663137262383}, Chromosome{value=22,560563237336318}, Chromosome{value=0,5515784720948695}, Chromosome{value=103,83095573130218}]}
 
 Iteration when we found appropriate: 105
 Iteration when we found best: 212
-Person{fitness=0.2377581778816751 | chromosomes=[Chromosome{value=-1.1174588851868457}, Chromosome{value=-1.6020760821426006}, Chromosome{value=0.5323079989538329}, Chromosome{value=-0.30635204379765724}, Chromosome{value=149.32549829694344}, Chromosome{value=0.2184230783666176}, Chromosome{value=31.984691758413817}]}
+Person{fitness=0,2377581778816751 | chromosomes=[Chromosome{value=-1,1174588851868457}, Chromosome{value=-1,6020760821426006}, Chromosome{value=0,5323079989538329}, Chromosome{value=-0,30635204379765724}, Chromosome{value=149,32549829694344}, Chromosome{value=0,2184230783666176}, Chromosome{value=31,984691758413817}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 129
-Person{fitness=0.0742567989217605 | chromosomes=[Chromosome{value=-8.06459908810087}, Chromosome{value=-6.739989536391889}, Chromosome{value=-2.6422969694195295}, Chromosome{value=3.3800634869513395}, Chromosome{value=-138.64608224725097}, Chromosome{value=0.5572918057298177}, Chromosome{value=-17.718160254420525}]}
+Person{fitness=0,0742567989217605 | chromosomes=[Chromosome{value=-8,06459908810087}, Chromosome{value=-6,739989536391889}, Chromosome{value=-2,6422969694195295}, Chromosome{value=3,3800634869513395}, Chromosome{value=-138,64608224725097}, Chromosome{value=0,5572918057298177}, Chromosome{value=-17,718160254420525}]}
 
 Iteration when we found appropriate: 95
 Iteration when we found best: 99
-Person{fitness=0.15843428874268364 | chromosomes=[Chromosome{value=5.399321607460372}, Chromosome{value=-3.7019990327678727}, Chromosome{value=-0.4035149299492735}, Chromosome{value=0.36021100600616673}, Chromosome{value=-83.319086555012}, Chromosome{value=1.025358258350808}, Chromosome{value=-12.11175431380981}]}
+Person{fitness=0,15843428874268364 | chromosomes=[Chromosome{value=5,399321607460372}, Chromosome{value=-3,7019990327678727}, Chromosome{value=-0,4035149299492735}, Chromosome{value=0,36021100600616673}, Chromosome{value=-83,319086555012}, Chromosome{value=1,025358258350808}, Chromosome{value=-12,11175431380981}]}
 
 Iteration when we found appropriate: 105
 Iteration when we found best: 152
-Person{fitness=0.13921228172303443 | chromosomes=[Chromosome{value=0.36004633315276735}, Chromosome{value=-6.66629610585934}, Chromosome{value=-1.3168449020802775}, Chromosome{value=1.6883945328761487}, Chromosome{value=-14.890738290388093}, Chromosome{value=0.5609960907662248}, Chromosome{value=-23.44730107885332}]}
+Person{fitness=0,13921228172303443 | chromosomes=[Chromosome{value=0,36004633315276735}, Chromosome{value=-6,66629610585934}, Chromosome{value=-1,3168449020802775}, Chromosome{value=1,6883945328761487}, Chromosome{value=-14,890738290388093}, Chromosome{value=0,5609960907662248}, Chromosome{value=-23,44730107885332}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 44
-Person{fitness=0.09261496306403623 | chromosomes=[Chromosome{value=10.878635477201314}, Chromosome{value=-3.9632890016822557}, Chromosome{value=-1.1871508055034097}, Chromosome{value=0.8077139535195128}, Chromosome{value=-25.41830695347889}, Chromosome{value=1.3309872945640842}, Chromosome{value=-139.1565344684618}]}
+Person{fitness=0,09261496306403623 | chromosomes=[Chromosome{value=10,878635477201314}, Chromosome{value=-3,9632890016822557}, Chromosome{value=-1,1871508055034097}, Chromosome{value=0,8077139535195128}, Chromosome{value=-25,41830695347889}, Chromosome{value=1,3309872945640842}, Chromosome{value=-139,1565344684618}]}
 
 Iteration when we found appropriate: 80
 Iteration when we found best: 210
-Person{fitness=0.21401083560802778 | chromosomes=[Chromosome{value=-0.23092008616728066}, Chromosome{value=-4.170970040527831}, Chromosome{value=3.413814328895365}, Chromosome{value=-3.093806286773416}, Chromosome{value=74.9581161221634}, Chromosome{value=0.35059195199768894}, Chromosome{value=-6.847342225315003}]}
+Person{fitness=0,21401083560802778 | chromosomes=[Chromosome{value=-0,23092008616728066}, Chromosome{value=-4,170970040527831}, Chromosome{value=3,413814328895365}, Chromosome{value=-3,093806286773416}, Chromosome{value=74,9581161221634}, Chromosome{value=0,35059195199768894}, Chromosome{value=-6,847342225315003}]}
 
 ____________________________________________________________________________________________________________________________________
 
-POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0.4
+POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0,4
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 105
-Person{fitness=0.059852525339263773 | chromosomes=[Chromosome{value=3.0464672617357564}, Chromosome{value=6.318246147839687}, Chromosome{value=1.3814018189718564}, Chromosome{value=-2.3122396678954704}, Chromosome{value=9.475863704444436}, Chromosome{value=1.494355925959188}, Chromosome{value=99.39107807035597}]}
+Person{fitness=0,059852525339263773 | chromosomes=[Chromosome{value=3,0464672617357564}, Chromosome{value=6,318246147839687}, Chromosome{value=1,3814018189718564}, Chromosome{value=-2,3122396678954704}, Chromosome{value=9,475863704444436}, Chromosome{value=1,494355925959188}, Chromosome{value=99,39107807035597}]}
 
 Iteration when we found appropriate: 91
 Iteration when we found best: 184
-Person{fitness=0.27801115137719146 | chromosomes=[Chromosome{value=2.5222337444120067}, Chromosome{value=-3.6916121641858326}, Chromosome{value=0.7233568258182643}, Chromosome{value=-0.5895488759012757}, Chromosome{value=14.173600878219233}, Chromosome{value=0.6378157898250216}, Chromosome{value=-0.5360639182329479}]}
+Person{fitness=0,27801115137719146 | chromosomes=[Chromosome{value=2,5222337444120067}, Chromosome{value=-3,6916121641858326}, Chromosome{value=0,7233568258182643}, Chromosome{value=-0,5895488759012757}, Chromosome{value=14,173600878219233}, Chromosome{value=0,6378157898250216}, Chromosome{value=-0,5360639182329479}]}
 
 Iteration when we found appropriate: 99
 Iteration when we found best: 100
-Person{fitness=0.12421687347748829 | chromosomes=[Chromosome{value=-1.814805349536405}, Chromosome{value=-0.11723254174754771}, Chromosome{value=-5.389129817487212}, Chromosome{value=5.291668471295344}, Chromosome{value=81.86721003984111}, Chromosome{value=0.8211210428077838}, Chromosome{value=-54.45912252902008}]}
+Person{fitness=0,12421687347748829 | chromosomes=[Chromosome{value=-1,814805349536405}, Chromosome{value=-0,11723254174754771}, Chromosome{value=-5,389129817487212}, Chromosome{value=5,291668471295344}, Chromosome{value=81,86721003984111}, Chromosome{value=0,8211210428077838}, Chromosome{value=-54,45912252902008}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 62
-Person{fitness=0.06447258777444331 | chromosomes=[Chromosome{value=-2.185207658459209}, Chromosome{value=-0.22244589111934943}, Chromosome{value=-4.893096253066852}, Chromosome{value=4.824674979969849}, Chromosome{value=-59.599022027445955}, Chromosome{value=1.2196184144049447}, Chromosome{value=-126.25300204590599}]}
+Person{fitness=0,06447258777444331 | chromosomes=[Chromosome{value=-2,185207658459209}, Chromosome{value=-0,22244589111934943}, Chromosome{value=-4,893096253066852}, Chromosome{value=4,824674979969849}, Chromosome{value=-59,599022027445955}, Chromosome{value=1,2196184144049447}, Chromosome{value=-126,25300204590599}]}
 
 Iteration when we found appropriate: 80
 Iteration when we found best: 80
-Person{fitness=0.10947336315712121 | chromosomes=[Chromosome{value=-9.07895388729262}, Chromosome{value=-0.15434757225003182}, Chromosome{value=-0.6620718924843618}, Chromosome{value=0.7829738925358862}, Chromosome{value=-49.525567893045064}, Chromosome{value=0.8934107026683591}, Chromosome{value=6.356300014110474}]}
+Person{fitness=0,10947336315712121 | chromosomes=[Chromosome{value=-9,07895388729262}, Chromosome{value=-0,15434757225003182}, Chromosome{value=-0,6620718924843618}, Chromosome{value=0,7829738925358862}, Chromosome{value=-49,525567893045064}, Chromosome{value=0,8934107026683591}, Chromosome{value=6,356300014110474}]}
 
 Iteration when we found appropriate: 112
 Iteration when we found best: 147
-Person{fitness=0.13745068481715844 | chromosomes=[Chromosome{value=5.396623491063094}, Chromosome{value=-7.185289216848032}, Chromosome{value=6.833830926224587}, Chromosome{value=-6.6508656798642205}, Chromosome{value=127.2177099910789}, Chromosome{value=0.32880041422704853}, Chromosome{value=-3.1611296443474437}]}
+Person{fitness=0,13745068481715844 | chromosomes=[Chromosome{value=5,396623491063094}, Chromosome{value=-7,185289216848032}, Chromosome{value=6,833830926224587}, Chromosome{value=-6,6508656798642205}, Chromosome{value=127,2177099910789}, Chromosome{value=0,32880041422704853}, Chromosome{value=-3,1611296443474437}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 107
-Person{fitness=0.07971692943389527 | chromosomes=[Chromosome{value=12.821998229690792}, Chromosome{value=-18.231045549630853}, Chromosome{value=-1.4349581956044295}, Chromosome{value=2.085142540825806}, Chromosome{value=-21.17616491278463}, Chromosome{value=0.20333064181079896}, Chromosome{value=25.190398805858845}]}
+Person{fitness=0,07971692943389527 | chromosomes=[Chromosome{value=12,821998229690792}, Chromosome{value=-18,231045549630853}, Chromosome{value=-1,4349581956044295}, Chromosome{value=2,085142540825806}, Chromosome{value=-21,17616491278463}, Chromosome{value=0,20333064181079896}, Chromosome{value=25,190398805858845}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 54
-Person{fitness=0.0982020562582419 | chromosomes=[Chromosome{value=-3.53781223033306}, Chromosome{value=8.07277920749425}, Chromosome{value=-0.7278210475859015}, Chromosome{value=0.44061351760664635}, Chromosome{value=52.25780927044241}, Chromosome{value=0.8620970745830543}, Chromosome{value=41.64176585758864}]}
+Person{fitness=0,0982020562582419 | chromosomes=[Chromosome{value=-3,53781223033306}, Chromosome{value=8,07277920749425}, Chromosome{value=-0,7278210475859015}, Chromosome{value=0,44061351760664635}, Chromosome{value=52,25780927044241}, Chromosome{value=0,8620970745830543}, Chromosome{value=41,64176585758864}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 87
-Person{fitness=0.07152173101114223 | chromosomes=[Chromosome{value=-10.99079667385357}, Chromosome{value=1.9712848503173461}, Chromosome{value=-1.3972023775840907}, Chromosome{value=2.239238173106611}, Chromosome{value=91.61783350814761}, Chromosome{value=-0.25829015760141516}, Chromosome{value=78.62995486203809}]}
+Person{fitness=0,07152173101114223 | chromosomes=[Chromosome{value=-10,99079667385357}, Chromosome{value=1,9712848503173461}, Chromosome{value=-1,3972023775840907}, Chromosome{value=2,239238173106611}, Chromosome{value=91,61783350814761}, Chromosome{value=-0,25829015760141516}, Chromosome{value=78,62995486203809}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 95
-Person{fitness=0.06699899083458659 | chromosomes=[Chromosome{value=-4.233221468538881}, Chromosome{value=-9.772980587364131}, Chromosome{value=3.3949381016262947}, Chromosome{value=-3.0345866229079683}, Chromosome{value=142.86675790877055}, Chromosome{value=0.2852874914444484}, Chromosome{value=-7.771609147338609}]}
+Person{fitness=0,06699899083458659 | chromosomes=[Chromosome{value=-4,233221468538881}, Chromosome{value=-9,772980587364131}, Chromosome{value=3,3949381016262947}, Chromosome{value=-3,0345866229079683}, Chromosome{value=142,86675790877055}, Chromosome{value=0,2852874914444484}, Chromosome{value=-7,771609147338609}]}
 
 ____________________________________________________________________________________________________________________________________
 
-POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0.5
+POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0,5
 
 Iteration when we found appropriate: 98
 Iteration when we found best: 98
-Person{fitness=0.10060138026179004 | chromosomes=[Chromosome{value=11.19763190860445}, Chromosome{value=-14.939577672226882}, Chromosome{value=-1.3903662363405407}, Chromosome{value=1.8929493822199688}, Chromosome{value=-44.37534223164075}, Chromosome{value=0.4131595729529529}, Chromosome{value=7.181946606191161}]}
+Person{fitness=0,10060138026179004 | chromosomes=[Chromosome{value=11,19763190860445}, Chromosome{value=-14,939577672226882}, Chromosome{value=-1,3903662363405407}, Chromosome{value=1,8929493822199688}, Chromosome{value=-44,37534223164075}, Chromosome{value=0,4131595729529529}, Chromosome{value=7,181946606191161}]}
 
 Iteration when we found appropriate: 71
 Iteration when we found best: 165
-Person{fitness=0.1963394518962468 | chromosomes=[Chromosome{value=0.45005173579902547}, Chromosome{value=-1.995743806918301}, Chromosome{value=2.7570462979391404}, Chromosome{value=-2.776436039604112}, Chromosome{value=-2.1241616095497005}, Chromosome{value=0.755968370870725}, Chromosome{value=60.377321731950104}]}
+Person{fitness=0,1963394518962468 | chromosomes=[Chromosome{value=0,45005173579902547}, Chromosome{value=-1,995743806918301}, Chromosome{value=2,7570462979391404}, Chromosome{value=-2,776436039604112}, Chromosome{value=-2,1241616095497005}, Chromosome{value=0,755968370870725}, Chromosome{value=60,377321731950104}]}
 
 Iteration when we found appropriate: 89
 Iteration when we found best: 258
-Person{fitness=0.257704420805421 | chromosomes=[Chromosome{value=-0.5575931345636205}, Chromosome{value=-2.520317256236787}, Chromosome{value=2.66712349597878}, Chromosome{value=-2.483075529714036}, Chromosome{value=43.55025570935831}, Chromosome{value=0.41952003901417456}, Chromosome{value=95.79516284575001}]}
+Person{fitness=0,257704420805421 | chromosomes=[Chromosome{value=-0,5575931345636205}, Chromosome{value=-2,520317256236787}, Chromosome{value=2,66712349597878}, Chromosome{value=-2,483075529714036}, Chromosome{value=43,55025570935831}, Chromosome{value=0,41952003901417456}, Chromosome{value=95,79516284575001}]}
 
 Iteration when we found appropriate: 77
 Iteration when we found best: 109
-Person{fitness=0.16625823993155456 | chromosomes=[Chromosome{value=1.6465596318826812}, Chromosome{value=-2.8834433562271258}, Chromosome{value=5.682785582542236}, Chromosome{value=-5.544063319635847}, Chromosome{value=67.15938029241228}, Chromosome{value=0.5397199554836137}, Chromosome{value=-29.834579371674888}]}
+Person{fitness=0,16625823993155456 | chromosomes=[Chromosome{value=1,6465596318826812}, Chromosome{value=-2,8834433562271258}, Chromosome{value=5,682785582542236}, Chromosome{value=-5,544063319635847}, Chromosome{value=67,15938029241228}, Chromosome{value=0,5397199554836137}, Chromosome{value=-29,834579371674888}]}
 
 Iteration when we found appropriate: 92
 Iteration when we found best: 118
-Person{fitness=0.15768692729679176 | chromosomes=[Chromosome{value=3.4476654840203835}, Chromosome{value=-6.9597162974911875}, Chromosome{value=-3.057569140201445}, Chromosome{value=3.4040242078647682}, Chromosome{value=13.94702897598868}, Chromosome{value=0.4377621515217822}, Chromosome{value=14.668464663411704}]}
+Person{fitness=0,15768692729679176 | chromosomes=[Chromosome{value=3,4476654840203835}, Chromosome{value=-6,9597162974911875}, Chromosome{value=-3,057569140201445}, Chromosome{value=3,4040242078647682}, Chromosome{value=13,94702897598868}, Chromosome{value=0,4377621515217822}, Chromosome{value=14,668464663411704}]}
 
 Iteration when we found appropriate: 69
 Iteration when we found best: 308
-Person{fitness=0.2174435177182017 | chromosomes=[Chromosome{value=0.21429053417046873}, Chromosome{value=-3.697736733706371}, Chromosome{value=4.100589476891997}, Chromosome{value=-3.8747007600179386}, Chromosome{value=56.196468938122436}, Chromosome{value=0.4923195670900247}, Chromosome{value=-19.689998336386182}]}
+Person{fitness=0,2174435177182017 | chromosomes=[Chromosome{value=0,21429053417046873}, Chromosome{value=-3,697736733706371}, Chromosome{value=4,100589476891997}, Chromosome{value=-3,8747007600179386}, Chromosome{value=56,196468938122436}, Chromosome{value=0,4923195670900247}, Chromosome{value=-19,689998336386182}]}
 
 Iteration when we found appropriate: 105
 Iteration when we found best: 105
-Person{fitness=0.1030589071995525 | chromosomes=[Chromosome{value=11.612381287768386}, Chromosome{value=-13.451738509144672}, Chromosome{value=7.140253181123637}, Chromosome{value=-6.763820681177957}, Chromosome{value=93.93473461616989}, Chromosome{value=0.198105248515565}, Chromosome{value=-2.595101398186216}]}
+Person{fitness=0,1030589071995525 | chromosomes=[Chromosome{value=11,612381287768386}, Chromosome{value=-13,451738509144672}, Chromosome{value=7,140253181123637}, Chromosome{value=-6,763820681177957}, Chromosome{value=93,93473461616989}, Chromosome{value=0,198105248515565}, Chromosome{value=-2,595101398186216}]}
 
 Iteration when we found appropriate: 90
 Iteration when we found best: 164
-Person{fitness=0.22137656380649925 | chromosomes=[Chromosome{value=-1.6882850821772877}, Chromosome{value=-3.521277890129248}, Chromosome{value=-0.05207408045000232}, Chromosome{value=0.27309020724386657}, Chromosome{value=65.39369159638446}, Chromosome{value=0.5006176229664574}, Chromosome{value=-11.589945308365714}]}
+Person{fitness=0,22137656380649925 | chromosomes=[Chromosome{value=-1,6882850821772877}, Chromosome{value=-3,521277890129248}, Chromosome{value=-0,05207408045000232}, Chromosome{value=0,27309020724386657}, Chromosome{value=65,39369159638446}, Chromosome{value=0,5006176229664574}, Chromosome{value=-11,589945308365714}]}
 
 Iteration when we found appropriate: 100
 Iteration when we found best: 232
-Person{fitness=0.2101482169981175 | chromosomes=[Chromosome{value=-0.07489997030096873}, Chromosome{value=-1.1814834128358842}, Chromosome{value=-3.829052410874228}, Chromosome{value=3.9311676039835106}, Chromosome{value=35.09464593374411}, Chromosome{value=0.5957224201940288}, Chromosome{value=31.64880114300531}]}
+Person{fitness=0,2101482169981175 | chromosomes=[Chromosome{value=-0,07489997030096873}, Chromosome{value=-1,1814834128358842}, Chromosome{value=-3,829052410874228}, Chromosome{value=3,9311676039835106}, Chromosome{value=35,09464593374411}, Chromosome{value=0,5957224201940288}, Chromosome{value=31,64880114300531}]}
 
 Iteration when we found appropriate: 96
 Iteration when we found best: 205
-Person{fitness=0.2720566231944143 | chromosomes=[Chromosome{value=-0.38408655703214833}, Chromosome{value=-1.8621903215952678}, Chromosome{value=1.1799213006062441}, Chromosome{value=-1.1235561168165755}, Chromosome{value=37.44529792375094}, Chromosome{value=0.7030116260171094}, Chromosome{value=-19.493944625679987}]}
+Person{fitness=0,2720566231944143 | chromosomes=[Chromosome{value=-0,38408655703214833}, Chromosome{value=-1,8621903215952678}, Chromosome{value=1,1799213006062441}, Chromosome{value=-1,1235561168165755}, Chromosome{value=37,44529792375094}, Chromosome{value=0,7030116260171094}, Chromosome{value=-19,493944625679987}]}
 
 Iteration when we found appropriate: 59
 Iteration when we found best: 242
-Person{fitness=0.21995545959207272 | chromosomes=[Chromosome{value=1.1425030703544916}, Chromosome{value=-2.6727385317321404}, Chromosome{value=-3.26312799038337}, Chromosome{value=3.3640916440221402}, Chromosome{value=5.153882716949996}, Chromosome{value=0.6270180831105477}, Chromosome{value=63.1274483384797}]}
+Person{fitness=0,21995545959207272 | chromosomes=[Chromosome{value=1,1425030703544916}, Chromosome{value=-2,6727385317321404}, Chromosome{value=-3,26312799038337}, Chromosome{value=3,3640916440221402}, Chromosome{value=5,153882716949996}, Chromosome{value=0,6270180831105477}, Chromosome{value=63,1274483384797}]}
 
 Iteration when we found appropriate: 72
 Iteration when we found best: 153
-Person{fitness=0.1394349547437032 | chromosomes=[Chromosome{value=-0.4703789788480588}, Chromosome{value=2.694450295445078}, Chromosome{value=-0.3788728451569656}, Chromosome{value=0.18277077639801467}, Chromosome{value=54.900796293744264}, Chromosome{value=1.2510605541212225}, Chromosome{value=-320.61965471402317}]}
+Person{fitness=0,1394349547437032 | chromosomes=[Chromosome{value=-0,4703789788480588}, Chromosome{value=2,694450295445078}, Chromosome{value=-0,3788728451569656}, Chromosome{value=0,18277077639801467}, Chromosome{value=54,900796293744264}, Chromosome{value=1,2510605541212225}, Chromosome{value=-320,61965471402317}]}
 
 Iteration when we found appropriate: 74
 Iteration when we found best: 74
-Person{fitness=0.16079369989896933 | chromosomes=[Chromosome{value=-1.7895363668732962}, Chromosome{value=0.3563203582686292}, Chromosome{value=-1.3885723305915074}, Chromosome{value=1.5553070229774268}, Chromosome{value=117.61578511736586}, Chromosome{value=0.3783343239743573}, Chromosome{value=4.809364169989763}]}
+Person{fitness=0,16079369989896933 | chromosomes=[Chromosome{value=-1,7895363668732962}, Chromosome{value=0,3563203582686292}, Chromosome{value=-1,3885723305915074}, Chromosome{value=1,5553070229774268}, Chromosome{value=117,61578511736586}, Chromosome{value=0,3783343239743573}, Chromosome{value=4,809364169989763}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 52
-Person{fitness=0.08507981555205028 | chromosomes=[Chromosome{value=-14.320254694391227}, Chromosome{value=6.6078893865829755}, Chromosome{value=-8.252400130311232}, Chromosome{value=8.50311766227936}, Chromosome{value=-23.251942632811534}, Chromosome{value=0.7083902963423294}, Chromosome{value=0.30451312864008884}]}
+Person{fitness=0,08507981555205028 | chromosomes=[Chromosome{value=-14,320254694391227}, Chromosome{value=6,6078893865829755}, Chromosome{value=-8,252400130311232}, Chromosome{value=8,50311766227936}, Chromosome{value=-23,251942632811534}, Chromosome{value=0,7083902963423294}, Chromosome{value=0,30451312864008884}]}
 
 Iteration when we found appropriate: 88
 Iteration when we found best: 112
-Person{fitness=0.14676443964592414 | chromosomes=[Chromosome{value=1.5007360041346303}, Chromosome{value=-7.597127559401152}, Chromosome{value=-0.6631615466508056}, Chromosome{value=1.0488165818330653}, Chromosome{value=76.80830590993432}, Chromosome{value=0.22440450986309313}, Chromosome{value=57.45760277964831}]}
+Person{fitness=0,14676443964592414 | chromosomes=[Chromosome{value=1,5007360041346303}, Chromosome{value=-7,597127559401152}, Chromosome{value=-0,6631615466508056}, Chromosome{value=1,0488165818330653}, Chromosome{value=76,80830590993432}, Chromosome{value=0,22440450986309313}, Chromosome{value=57,45760277964831}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 73
-Person{fitness=0.0534533136015041 | chromosomes=[Chromosome{value=-30.063576904652237}, Chromosome{value=22.205352195665938}, Chromosome{value=-3.951626026419582}, Chromosome{value=4.025933340605815}, Chromosome{value=88.10555678448728}, Chromosome{value=0.4132166920294189}, Chromosome{value=182.82815586448226}]}
+Person{fitness=0,0534533136015041 | chromosomes=[Chromosome{value=-30,063576904652237}, Chromosome{value=22,205352195665938}, Chromosome{value=-3,951626026419582}, Chromosome{value=4,025933340605815}, Chromosome{value=88,10555678448728}, Chromosome{value=0,4132166920294189}, Chromosome{value=182,82815586448226}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 95
-Person{fitness=0.05855618158343595 | chromosomes=[Chromosome{value=16.123608538239957}, Chromosome{value=-21.941354866328382}, Chromosome{value=3.8465936614497926}, Chromosome{value=-2.8630272310394425}, Chromosome{value=83.14851561050685}, Chromosome{value=-0.518808905796766}, Chromosome{value=130.7376870806087}]}
+Person{fitness=0,05855618158343595 | chromosomes=[Chromosome{value=16,123608538239957}, Chromosome{value=-21,941354866328382}, Chromosome{value=3,8465936614497926}, Chromosome{value=-2,8630272310394425}, Chromosome{value=83,14851561050685}, Chromosome{value=-0,518808905796766}, Chromosome{value=130,7376870806087}]}
 
 Iteration when we found appropriate: 90
 Iteration when we found best: 97
-Person{fitness=0.17011034697136518 | chromosomes=[Chromosome{value=0.906282353536616}, Chromosome{value=-5.649536838270649}, Chromosome{value=1.231708100060814}, Chromosome{value=-0.8399381029195383}, Chromosome{value=164.5602097090553}, Chromosome{value=0.09578066955328036}, Chromosome{value=-19.561741458689593}]}
+Person{fitness=0,17011034697136518 | chromosomes=[Chromosome{value=0,906282353536616}, Chromosome{value=-5,649536838270649}, Chromosome{value=1,231708100060814}, Chromosome{value=-0,8399381029195383}, Chromosome{value=164,5602097090553}, Chromosome{value=0,09578066955328036}, Chromosome{value=-19,561741458689593}]}
 
 ____________________________________________________________________________________________________________________________________
 
-POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0.6
+POPULATION: 10k, ITERATIONS:500, METHOD: BLX-alpha, SELECTION: Tournament, MUTATION: 0,6
 
 Iteration when we found appropriate: 90
 Iteration when we found best: 104
-Person{fitness=0.13761922378366745 | chromosomes=[Chromosome{value=7.439055857008072}, Chromosome{value=-5.822113315828291}, Chromosome{value=0.6392220358162533}, Chromosome{value=-0.43134393025009116}, Chromosome{value=17.520600733510953}, Chromosome{value=0.6176232246955344}, Chromosome{value=-77.62157293611608}]}
+Person{fitness=0,13761922378366745 | chromosomes=[Chromosome{value=7,439055857008072}, Chromosome{value=-5,822113315828291}, Chromosome{value=0,6392220358162533}, Chromosome{value=-0,43134393025009116}, Chromosome{value=17,520600733510953}, Chromosome{value=0,6176232246955344}, Chromosome{value=-77,62157293611608}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 65
-Person{fitness=0.08610242099160628 | chromosomes=[Chromosome{value=14.805274355722588}, Chromosome{value=-16.15330809772793}, Chromosome{value=1.7293718280280972}, Chromosome{value=-1.3548496474602443}, Chromosome{value=-155.00735026888086}, Chromosome{value=0.6544972400657487}, Chromosome{value=95.98072321980274}]}
+Person{fitness=0,08610242099160628 | chromosomes=[Chromosome{value=14,805274355722588}, Chromosome{value=-16,15330809772793}, Chromosome{value=1,7293718280280972}, Chromosome{value=-1,3548496474602443}, Chromosome{value=-155,00735026888086}, Chromosome{value=0,6544972400657487}, Chromosome{value=95,98072321980274}]}
 
 Iteration when we found appropriate: 83
 Iteration when we found best: 120
-Person{fitness=0.1477702669759339 | chromosomes=[Chromosome{value=-8.834095670370617}, Chromosome{value=2.3986627482524128}, Chromosome{value=1.0751874682081126}, Chromosome{value=-0.8724127388405221}, Chromosome{value=174.757757094539}, Chromosome{value=0.2747574458290766}, Chromosome{value=-2.8863982876531082}]}
+Person{fitness=0,1477702669759339 | chromosomes=[Chromosome{value=-8,834095670370617}, Chromosome{value=2,3986627482524128}, Chromosome{value=1,0751874682081126}, Chromosome{value=-0,8724127388405221}, Chromosome{value=174,757757094539}, Chromosome{value=0,2747574458290766}, Chromosome{value=-2,8863982876531082}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 69
-Person{fitness=0.07674214937709958 | chromosomes=[Chromosome{value=-2.693376980820199}, Chromosome{value=-6.606589606482473}, Chromosome{value=-6.261654298638623}, Chromosome{value=6.4035816929193246}, Chromosome{value=8.810768530418216}, Chromosome{value=0.818272712487917}, Chromosome{value=-50.644719626362196}]}
+Person{fitness=0,07674214937709958 | chromosomes=[Chromosome{value=-2,693376980820199}, Chromosome{value=-6,606589606482473}, Chromosome{value=-6,261654298638623}, Chromosome{value=6,4035816929193246}, Chromosome{value=8,810768530418216}, Chromosome{value=0,818272712487917}, Chromosome{value=-50,644719626362196}]}
 
 Iteration when we found appropriate: 80
 Iteration when we found best: 84
-Person{fitness=0.15373472194478377 | chromosomes=[Chromosome{value=-1.0097191092850686}, Chromosome{value=-4.4422167373622035}, Chromosome{value=3.755328315697975}, Chromosome{value=-3.321090526593565}, Chromosome{value=46.63922914121068}, Chromosome{value=0.3283351060334858}, Chromosome{value=-20.033480053161867}]}
+Person{fitness=0,15373472194478377 | chromosomes=[Chromosome{value=-1,0097191092850686}, Chromosome{value=-4,4422167373622035}, Chromosome{value=3,755328315697975}, Chromosome{value=-3,321090526593565}, Chromosome{value=46,63922914121068}, Chromosome{value=0,3283351060334858}, Chromosome{value=-20,033480053161867}]}
 
 Iteration when we found appropriate: 0
 Iteration when we found best: 86
-Person{fitness=0.0545653902671045 | chromosomes=[Chromosome{value=-21.326088568699817}, Chromosome{value=19.84260779845838}, Chromosome{value=-7.8040507665903}, Chromosome{value=7.290071388499314}, Chromosome{value=-82.53158522916495}, Chromosome{value=1.3071200453119611}, Chromosome{value=194.3206768554282}]}
+Person{fitness=0,0545653902671045 | chromosomes=[Chromosome{value=-21,326088568699817}, Chromosome{value=19,84260779845838}, Chromosome{value=-7,8040507665903}, Chromosome{value=7,290071388499314}, Chromosome{value=-82,53158522916495}, Chromosome{value=1,3071200453119611}, Chromosome{value=194,3206768554282}]}
 
 
 

@@ -37,6 +37,9 @@ public class BLXAlphaCrossoverMethod implements CrossoverMethod {
     }
 
     private double getRandomDoubleFromRange(double min, double max) {
+        if (Double.compare(min, max) >= 0) {
+            System.out.println(min + ' ' + max);
+        }
         return ThreadLocalRandom.current().nextDouble(min, max);
     }
 
