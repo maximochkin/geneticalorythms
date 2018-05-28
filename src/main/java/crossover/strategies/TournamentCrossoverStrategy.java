@@ -10,14 +10,16 @@ import java.util.List;
 
 public class TournamentCrossoverStrategy implements CrossoverStrategy {
     @Override
-    public List<Person> crossover(Population population, CrossoverMethod crossoverMethod) {
+    public List<Person> crossover(Population population, CrossoverMethod crossoverMethod, double crossoverProbability) {
         Collections.shuffle(population.getPopulation());
         List<Person> parentsPool = new ArrayList<>();
         for (int i = 0; i < population.getSize() - 1; i += 2) {
-            if (Double.compare(population.getPersonByNumber(i).getFitnessValue(), population.getPersonByNumber(i + 1).getFitnessValue()) > 0) {
-                parentsPool.add(population.getPersonByNumber(i));
-            } else {
-                parentsPool.add(population.getPersonByNumber(i + 1));
+            if (willCrossover(crossoverProbability)) {
+                if (Double.compare(population.getPersonByNumber(i).getFitnessValue(), population.getPersonByNumber(i + 1).getFitnessValue()) > 0) {
+                    parentsPool.add(population.getPersonByNumber(i));
+                } else {
+                    parentsPool.add(population.getPersonByNumber(i + 1));
+                }
             }
         }
 

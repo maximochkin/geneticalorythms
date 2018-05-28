@@ -34,6 +34,11 @@ public class AvgSqrFitnessFunctionForFacility implements FitnessFunction {
             if (Ni.isEmpty()) {
                 init();
             }
+
+            if (person.getChromosomes().stream().allMatch(chromosome -> Double.compare(chromosome.getValue(), 0.0d) == 0)) {
+                return 0.0d;
+            }
+
             for (int i = 0; i < NUMBER_OF_ROWS; i++) {
                 fitnessValue += Math.pow(Tsm.get(i) - (person.getChromosomeByNumber(0).getValue() * Ni.get(i) +
                         person.getChromosomeByNumber(1).getValue() * Ni1.get(i) +

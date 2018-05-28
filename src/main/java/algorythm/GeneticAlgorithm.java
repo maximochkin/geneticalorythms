@@ -20,13 +20,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-public class GeneticAlgorythm {
+public class GeneticAlgorithm {
     private static final int NUMBER_OF_ITERATIONS = 500;
     private static final int MAX_SIZE_OF_POPULATION = 10000;
     private static final int INITIAL_SIZE_OF_POPULATION = 10000;
     private static final double PRECISION = 0.1;
     private static final double MUTATION_PROBABILITY = 0.1;
-    private static final Logger LOGGER = Logger.getLogger(GeneticAlgorythm.class.getName());
+    private static final double CROSSOVER_PROBABILITY = 1.0;
+    private static final Logger LOGGER = Logger.getLogger(GeneticAlgorithm.class.getName());
 
 
     private PopulationInitializer populationInitializer;
@@ -38,7 +39,7 @@ public class GeneticAlgorythm {
     private FitnessFunction fitnessFunction;
     private Selector selector;
 
-    public GeneticAlgorythm(PopulationInitializer populationInitializer, PersonInitializer personInitializer,
+    public GeneticAlgorithm(PopulationInitializer populationInitializer, PersonInitializer personInitializer,
                             Mutation mutation, CrossoverMethod crossoverMethod, CrossoverStrategy crossoverStrategy,
                             PersonTemplate personTemplate, FitnessFunction fitnessFunction, Selector selector) {
         this.populationInitializer = populationInitializer;
@@ -69,7 +70,7 @@ public class GeneticAlgorythm {
 
         for (int i = 0; i < NUMBER_OF_ITERATIONS; i++) {
 
-            List<Person> children = crossoverStrategy.crossover(population, crossoverMethod);
+            List<Person> children = crossoverStrategy.crossover(population, crossoverMethod, CROSSOVER_PROBABILITY);
 
             mutation.mutate(population, personTemplate, MUTATION_PROBABILITY);
 

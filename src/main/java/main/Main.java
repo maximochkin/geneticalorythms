@@ -1,13 +1,10 @@
 package main;
 
-import algorythm.GeneticAlgorythm;
+import algorythm.SelfAdaptiveGeneticAlgorithm;
 import crossover.methods.BLXAlphaCrossoverMethod;
-import crossover.methods.BasicOnePointCrossover;
 import crossover.methods.CrossoverMethod;
 import crossover.strategies.CrossoverStrategy;
 import crossover.strategies.RandomParentsCrossoverStrategy;
-import crossover.strategies.RouletteCrossoverStrategy;
-import crossover.strategies.TournamentCrossoverStrategy;
 import entities.Person;
 import entities.PersonTemplate;
 import fitness.AvgSqrFitnessFunctionForFacility;
@@ -18,7 +15,6 @@ import initializers.PersonInitializer;
 import initializers.PopulationInitializer;
 import mutations.BasicRandomBasedMutation;
 import mutations.Mutation;
-import selection.MGGSelection;
 import selection.RemoveTheWorstSelector;
 import selection.Selector;
 import utils.Pair;
@@ -34,13 +30,13 @@ public class Main {
 		PopulationInitializer populationInitializer = new BasicRandomPopulationInitializer();
 		PersonInitializer personInitializer = new BasicRandomPersonInitializer();
 		Mutation mutation = new BasicRandomBasedMutation();
-		CrossoverMethod crossoverMethod = new BasicOnePointCrossover();
+		CrossoverMethod crossoverMethod = new BLXAlphaCrossoverMethod();
 		CrossoverStrategy crossoverStrategy = new RandomParentsCrossoverStrategy();
 		PersonTemplate personTemplate = preparePersonTemplate();
 		FitnessFunction fitnessFunction = new AvgSqrFitnessFunctionForFacility();
-		Selector selector = new MGGSelection();
+		Selector selector = new RemoveTheWorstSelector();
 
-		Person bestOfTheBest = new GeneticAlgorythm(populationInitializer, personInitializer, mutation, crossoverMethod, crossoverStrategy,
+		Person bestOfTheBest = new SelfAdaptiveGeneticAlgorithm(populationInitializer, personInitializer, mutation, crossoverMethod, crossoverStrategy,
 				personTemplate, fitnessFunction, selector).start();
 
 		System.out.println(bestOfTheBest.toString());
