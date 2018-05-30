@@ -32,8 +32,8 @@ public class SelfAdaptiveGeneticAlgorithm {
 	private static final int INITIAL_SIZE_OF_POPULATION = 10000 / NUMBER_OF_POPULATIONS;
 	private static final int NUMBER_OF_MIGRATED_PERSONS = 10;
 	private static final double PRECISION = 0.1;
-	private static final double MUTATION_PROBABILITY = 0.05;
-	private static final double CROSSOVER_PROBABILITY = 0.5;
+	private static final double MUTATION_PROBABILITY = 0.1;
+	private static final double CROSSOVER_PROBABILITY = 0.8;
 	private static final Logger LOGGER = Logger.getLogger(SelfAdaptiveGeneticAlgorithm.class.getName());
 
 	private static class PopulationParameters {
@@ -167,9 +167,15 @@ public class SelfAdaptiveGeneticAlgorithm {
 
 		for (int i = 0; i < populations.size(); i++) {
 			PopulationParameters params = populationParameters.get(i);
-			params.mutationProbability = params.mutationProbability + (averageSize / params.populationSize - 1) * 0.001;
-			params.crossoverProbability = params.crossoverProbability + (averageSize / params.populationSize - 1) * 0.01;
-			params.populationSize = (int) (params.populationSize + params.bestPerson.getFitnessValue()/averageFitnessForAllEcosystem -1);
+			params.mutationProbability = params.mutationProbability + (averageSize / params.populationSize - 1) * 0.0001;
+			params.crossoverProbability = params.crossoverProbability + (averageSize / params.populationSize - 1) * 0.001;
+			if (params.mutationProbability < 0) {
+				params.mutationProbability = 0;
+			}
+			if (params.crossoverProbability < 0) {
+				params.crossoverProbability = 0;
+			}
+			params.populationSize = (int) (params.populationSize + params.bestPerson.getFitnessValue()/averageFitnessForAllEcosystem - 1);
 			if (params.iterationsWithTheSameBestPersonCounter == ITERATIONS_WITHOUT_BEST_CHANGES) {
 				migrate(populations.get(i), populations.get(ThreadLocalRandom.current().nextInt(NUMBER_OF_POPULATIONS)));
 				params.iterationsWithTheSameBestPersonCounter = 0;
