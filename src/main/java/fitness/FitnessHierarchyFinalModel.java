@@ -38,9 +38,9 @@ public class FitnessHierarchyFinalModel implements FitnessFunction {
 			for (int i = 0; i < NUMBER_OF_ROWS; i++) {
 				fitnessValue += Math.pow(Tsm.get(i) -
 						(
-							person.getChromosomeByNumber(0).getValue() * (Ni.get(i) * coefficientsFromSubModels.get(0) + Ni1.get(i) * coefficientsFromSubModels.get(1) + coefficientsFromSubModels.get(2)) +
-							person.getChromosomeByNumber(1).getValue() * (Vi.get(i) * coefficientsFromSubModels.get(3) + Vi1.get(i) * coefficientsFromSubModels.get(4) + coefficientsFromSubModels.get(5)) +
-							person.getChromosomeByNumber(2).getValue() * (Hi.get(i) * coefficientsFromSubModels.get(6) + Tkp.get(i) * coefficientsFromSubModels.get(7) + coefficientsFromSubModels.get(8)) +
+							person.getChromosomeByNumber(0).getValue() * (Ni.get(i) * coefficientsFromSubModels.get(0) + Hi.get(i) * coefficientsFromSubModels.get(1) + coefficientsFromSubModels.get(2)) +
+							person.getChromosomeByNumber(1).getValue() * (Ni1.get(i) * coefficientsFromSubModels.get(3) + Vi1.get(i) * coefficientsFromSubModels.get(4) + coefficientsFromSubModels.get(5)) +
+							person.getChromosomeByNumber(2).getValue() * (Vi.get(i) * coefficientsFromSubModels.get(6) + Tkp.get(i) * coefficientsFromSubModels.get(7) + coefficientsFromSubModels.get(8)) +
 							person.getChromosomeByNumber(3).getValue()), 2.0
 						);
 			}

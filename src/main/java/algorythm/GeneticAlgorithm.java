@@ -102,8 +102,9 @@ public class GeneticAlgorithm {
             LOGGER.info("STEP: " + i + " | AverageFitness = " + averageFitnessOfPopulation);
         }
 
-		System.out.println("Iteration when we found appropriate: " + iterationWhenWeFoundAppropriateSolution);
-		System.out.println("Iteration when we found best: " + iterationWhenWeFoundBest);
+		LOGGER.info("Iteration when we found appropriate: " + iterationWhenWeFoundAppropriateSolution);
+		LOGGER.info("Iteration when we found best: " + iterationWhenWeFoundBest);
+		LOGGER.info("Best for model: " + bestOfTheBest.toString());
 
         return bestOfTheBest;
 

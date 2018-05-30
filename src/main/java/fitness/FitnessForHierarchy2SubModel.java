@@ -35,7 +35,7 @@ public class FitnessForHierarchy2SubModel implements FitnessFunction {
 
 			for (int i = 0; i < NUMBER_OF_ROWS; i++) {
 				fitnessValue += Math.pow(Tsm.get(i) - (
-						person.getChromosomeByNumber(0).getValue() * Vi.get(i) +
+						person.getChromosomeByNumber(0).getValue() * Ni1.get(i) +
 						person.getChromosomeByNumber(1).getValue() * Vi1.get(i) +
 						person.getChromosomeByNumber(2).getValue()), 2.0);
 			}
