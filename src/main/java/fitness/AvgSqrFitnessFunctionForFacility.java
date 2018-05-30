@@ -69,5 +69,6 @@ public class AvgSqrFitnessFunctionForFacility implements FitnessFunction {
             Tkp.add(scanner.nextInt());
             Tsm.add(scanner.nextInt());
         }
-    }
+		scanner.close();
+	}
 }
